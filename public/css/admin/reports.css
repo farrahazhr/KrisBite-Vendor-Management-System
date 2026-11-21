@@ -1,0 +1,362 @@
+
+/* =========================================
+   KRISBITE - ADMIN REPORTS
+   Charcoal Black & Midnight Navy
+========================================= */
+
+.admin-reports-page {
+    font-family: 'Inter', sans-serif;
+    color: #23272E;
+    padding-top: 8px;
+    padding-bottom: 30px;
+}
+
+/* =========================================
+   MAIN CARD
+========================================= */
+
+.admin-reports-page .reports-main-card {
+    background-color: #FFFFFF;
+    border: 1px solid #D5DCE5;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.05);
+    overflow: hidden;
+}
+
+/* =========================================
+   CARD HEADER
+========================================= */
+
+.admin-reports-page .reports-page-header {
+    padding: 25px 28px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #D5DCE5;
+}
+
+.admin-reports-page .reports-header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.admin-reports-page .page-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: #23272E;
+    margin-bottom: 8px;
+}
+
+.admin-reports-page .page-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #667085;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* =========================================
+   CARD CONTENT
+========================================= */
+
+.admin-reports-page .reports-card-content {
+    padding: 25px 28px 28px;
+}
+
+/* =========================================
+   SECTION HEADER
+========================================= */
+
+.admin-reports-page .reports-section-header {
+    margin-bottom: 18px;
+}
+
+.admin-reports-page .reports-section-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #23272E;
+    margin: 0;
+}
+
+/* =========================================
+   REPORTS TABLE
+========================================= */
+
+.admin-reports-page .reports-table-wrapper {
+    width: 100%;
+    border: 1px solid #D5DCE5;
+    border-radius: 7px;
+}
+
+.admin-reports-page .reports-table {
+    width: 100%;
+    margin-bottom: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.admin-reports-page .reports-table thead th {
+    background-color: #F2F5F9;
+    color: #344054;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 17px;
+    border-bottom: 1px solid #D5DCE5;
+    white-space: nowrap;
+}
+
+.admin-reports-page .reports-table tbody td {
+    padding: 17px;
+    color: #344054;
+    border-color: #E8ECF1;
+    vertical-align: middle;
+}
+
+.admin-reports-page .reports-table tbody tr:hover {
+    background-color: #F8FAFC;
+}
+
+.admin-reports-page .vendor-name {
+    font-weight: 500;
+    color: #23272E !important;
+}
+
+.admin-reports-page .amount-cell {
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+}
+
+/* =========================================
+   FINANCIAL AMOUNTS
+========================================= */
+
+.admin-reports-page .commission-amount,
+.reports-receipt-modal .commission-amount {
+    color: #B43C3C !important;
+    font-weight: 600;
+}
+
+.admin-reports-page .payout-amount,
+.reports-receipt-modal .payout-amount {
+    color: #267345 !important;
+    font-weight: 600;
+}
+
+/* =========================================
+   BUTTONS
+========================================= */
+
+.admin-reports-page .reports-btn,
+.reports-receipt-modal .reports-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 9px 15px;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+}
+
+/* Export PDF */
+
+.admin-reports-page .btn-export {
+    background-color: #192F50;
+    color: #FFFFFF;
+    border: 1px solid #192F50;
+}
+
+.admin-reports-page .btn-export:hover {
+    background-color: #34557E;
+    border-color: #34557E;
+    color: #FFFFFF;
+}
+
+/* View Receipt */
+
+.admin-reports-page .btn-receipt {
+    background-color: #FFFFFF;
+    color: #192F50;
+    border: 1px solid #192F50;
+    padding: 8px 13px;
+}
+
+.admin-reports-page .btn-receipt:hover {
+    background-color: #192F50;
+    color: #FFFFFF;
+}
+
+/* =========================================
+   EMPTY STATE
+========================================= */
+
+.admin-reports-page .reports-empty-state {
+    padding: 45px 20px;
+    text-align: center;
+    color: #667085;
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid #D5DCE5;
+    border-radius: 7px;
+}
+
+/* =========================================
+   RECEIPT MODAL
+========================================= */
+
+.reports-receipt-modal {
+    font-family: 'Inter', sans-serif;
+    color: #23272E;
+}
+
+.reports-receipt-modal .modal-content {
+    border: 1px solid #D5DCE5;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.reports-receipt-modal .modal-header {
+    background-color: #EDF1F6;
+    border-bottom: 1px solid #D5DCE5;
+    padding: 20px 24px;
+}
+
+.reports-receipt-modal .modal-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: #23272E;
+}
+
+.reports-receipt-modal .modal-body {
+    padding: 24px;
+}
+
+.reports-receipt-modal .receipt-date {
+    font-size: 14px;
+    color: #475467;
+    margin-bottom: 20px;
+}
+
+.reports-receipt-modal .receipt-date strong {
+    font-weight: 600;
+    color: #23272E;
+}
+
+/* Receipt Table */
+
+.reports-receipt-modal .receipt-table-wrapper {
+    border: 1px solid #D5DCE5;
+    border-radius: 7px;
+}
+
+.reports-receipt-modal .receipt-table {
+    width: 100%;
+    margin-bottom: 0;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.reports-receipt-modal .receipt-table thead th {
+    background-color: #F2F5F9;
+    color: #344054;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 12px 10px;
+    border-color: #D5DCE5;
+    white-space: nowrap;
+}
+
+.reports-receipt-modal .receipt-table tbody td {
+    padding: 12px 10px;
+    color: #344054;
+    border-color: #E8ECF1;
+}
+
+.reports-receipt-modal .receipt-item-name {
+    font-weight: 500;
+    color: #23272E !important;
+    text-align: left;
+}
+
+.reports-receipt-modal .receipt-table tfoot td {
+    background-color: #EDF1F6;
+    padding: 13px 10px;
+    font-weight: 600;
+    border-color: #D5DCE5;
+}
+
+.reports-receipt-modal .grand-total-label {
+    text-align: right;
+    color: #23272E;
+}
+
+/* Modal Footer */
+
+.reports-receipt-modal .modal-footer {
+    padding: 16px 24px;
+    border-top: 1px solid #D5DCE5;
+    background-color: #FFFFFF;
+}
+
+.reports-receipt-modal .btn-close-receipt {
+    background-color: #FFFFFF;
+    color: #344054;
+    border: 1px solid #C9D2DE;
+}
+
+.reports-receipt-modal .btn-close-receipt:hover {
+    background-color: #EDF1F6;
+    color: #23272E;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 767.98px) {
+
+    .admin-reports-page {
+        padding-top: 5px;
+    }
+
+    .admin-reports-page .reports-page-header {
+        padding: 20px;
+    }
+
+    .admin-reports-page .reports-header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .admin-reports-page .page-title {
+        font-size: 23px;
+    }
+
+    .admin-reports-page .reports-card-content {
+        padding: 20px;
+    }
+
+    .admin-reports-page .reports-table thead th,
+    .admin-reports-page .reports-table tbody td {
+        padding: 13px;
+    }
+
+    .reports-receipt-modal .modal-body {
+        padding: 16px;
+    }
+
+    .reports-receipt-modal .modal-header {
+        padding: 18px;
+    }
+}

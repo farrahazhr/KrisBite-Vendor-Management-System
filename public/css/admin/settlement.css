@@ -1,0 +1,383 @@
+
+/* =========================================
+   KRISBITE - ADMIN SETTLEMENTS
+   Charcoal Black & Midnight Navy
+========================================= */
+
+.admin-settlement-page {
+    font-family: 'Inter', sans-serif;
+    color: #23272E;
+    padding-top: 8px;
+    padding-bottom: 30px;
+}
+
+/* =========================================
+   MAIN CARD
+========================================= */
+
+.admin-settlement-page .settlement-main-card {
+    background-color: #FFFFFF;
+    border: 1px solid #D5DCE5;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.05);
+    overflow: hidden;
+}
+
+/* =========================================
+   CARD HEADER
+========================================= */
+
+.admin-settlement-page .settlement-page-header {
+    padding: 25px 28px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #D5DCE5;
+}
+
+.admin-settlement-page .page-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: #23272E;
+    margin-bottom: 8px;
+}
+
+.admin-settlement-page .page-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #667085;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* =========================================
+   CARD CONTENT
+========================================= */
+
+.admin-settlement-page .settlement-card-content {
+    padding: 25px 28px 28px;
+}
+
+/* =========================================
+   ALERT MESSAGES
+========================================= */
+
+.admin-settlement-page .alert {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 13px 16px;
+    margin-bottom: 22px;
+}
+
+/* =========================================
+   SECTION HEADER
+========================================= */
+
+.admin-settlement-page .settlement-section-header {
+    margin-bottom: 18px;
+}
+
+.admin-settlement-page .settlement-section-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #23272E;
+    margin: 0;
+}
+
+/* =========================================
+   SETTLEMENT TABLE
+========================================= */
+
+.admin-settlement-page .settlement-table-wrapper {
+    width: 100%;
+    border: 1px solid #D5DCE5;
+    border-radius: 7px;
+}
+
+.admin-settlement-page .settlement-table {
+    width: 100%;
+    margin-bottom: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.admin-settlement-page .settlement-table thead th {
+    background-color: #F2F5F9;
+    color: #344054;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 17px;
+    border-bottom: 1px solid #D5DCE5;
+    white-space: nowrap;
+}
+
+.admin-settlement-page .settlement-table tbody td {
+    padding: 17px;
+    color: #344054;
+    border-color: #E8ECF1;
+    vertical-align: middle;
+}
+
+.admin-settlement-page .settlement-table tbody tr:hover {
+    background-color: #F8FAFC;
+}
+
+.admin-settlement-page .vendor-name {
+    font-weight: 500;
+    color: #23272E !important;
+}
+
+.admin-settlement-page .amount-cell {
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+}
+
+/* =========================================
+   FINANCIAL AMOUNTS
+========================================= */
+
+.admin-settlement-page .commission-amount,
+.settlement-receipt-modal .commission-amount {
+    color: #B43C3C !important;
+    font-weight: 600;
+}
+
+.admin-settlement-page .payout-amount,
+.settlement-receipt-modal .payout-amount {
+    color: #267345 !important;
+    font-weight: 600;
+}
+
+/* =========================================
+   STATUS BADGE
+========================================= */
+
+.admin-settlement-page .settlement-status {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.admin-settlement-page .status-pending {
+    background-color: #FFF0CF;
+    color: #946200;
+}
+
+/* =========================================
+   ACTION BUTTONS
+========================================= */
+
+.admin-settlement-page .settlement-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: nowrap;
+}
+
+.admin-settlement-page .settlement-btn,
+.settlement-receipt-modal .settlement-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 13px;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+}
+
+/* View Receipt */
+
+.admin-settlement-page .btn-receipt {
+    background-color: #FFFFFF;
+    color: #192F50;
+    border: 1px solid #192F50;
+}
+
+.admin-settlement-page .btn-receipt:hover {
+    background-color: #192F50;
+    color: #FFFFFF;
+}
+
+/* Approve */
+
+.admin-settlement-page .btn-approve {
+    background-color: #267345;
+    color: #FFFFFF;
+    border: 1px solid #267345;
+}
+
+.admin-settlement-page .btn-approve:hover {
+    background-color: #1D5A35;
+    color: #FFFFFF;
+}
+
+/* =========================================
+   EMPTY STATE
+========================================= */
+
+.admin-settlement-page .empty-state {
+    padding: 45px 20px !important;
+    text-align: center;
+    color: #667085 !important;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* =========================================
+   RECEIPT MODAL
+========================================= */
+
+.settlement-receipt-modal {
+    font-family: 'Inter', sans-serif;
+    color: #23272E;
+}
+
+.settlement-receipt-modal .modal-content {
+    border: 1px solid #D5DCE5;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.settlement-receipt-modal .modal-header {
+    background-color: #EDF1F6;
+    border-bottom: 1px solid #D5DCE5;
+    padding: 20px 24px;
+}
+
+.settlement-receipt-modal .modal-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: #23272E;
+}
+
+.settlement-receipt-modal .modal-body {
+    padding: 24px;
+}
+
+.settlement-receipt-modal .receipt-date {
+    font-size: 14px;
+    color: #475467;
+    margin-bottom: 20px;
+}
+
+.settlement-receipt-modal .receipt-date strong {
+    font-weight: 600;
+    color: #23272E;
+}
+
+/* Receipt Table */
+
+.settlement-receipt-modal .receipt-table-wrapper {
+    border: 1px solid #D5DCE5;
+    border-radius: 7px;
+}
+
+.settlement-receipt-modal .receipt-table {
+    width: 100%;
+    margin-bottom: 0;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.settlement-receipt-modal .receipt-table thead th {
+    background-color: #F2F5F9;
+    color: #344054;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 12px 10px;
+    border-color: #D5DCE5;
+    white-space: nowrap;
+}
+
+.settlement-receipt-modal .receipt-table tbody td {
+    padding: 12px 10px;
+    color: #344054;
+    border-color: #E8ECF1;
+}
+
+.settlement-receipt-modal .receipt-item-name {
+    font-weight: 500;
+    color: #23272E !important;
+    text-align: left;
+}
+
+.settlement-receipt-modal .receipt-table tfoot td {
+    background-color: #EDF1F6;
+    padding: 13px 10px;
+    font-weight: 600;
+    border-color: #D5DCE5;
+}
+
+.settlement-receipt-modal .grand-total-label {
+    text-align: right;
+    color: #23272E;
+}
+
+/* Modal Footer */
+
+.settlement-receipt-modal .modal-footer {
+    padding: 16px 24px;
+    border-top: 1px solid #D5DCE5;
+    background-color: #FFFFFF;
+}
+
+.settlement-receipt-modal .btn-close-receipt {
+    background-color: #FFFFFF;
+    color: #344054;
+    border: 1px solid #C9D2DE;
+}
+
+.settlement-receipt-modal .btn-close-receipt:hover {
+    background-color: #EDF1F6;
+    color: #23272E;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 767.98px) {
+
+    .admin-settlement-page {
+        padding-top: 5px;
+    }
+
+    .admin-settlement-page .settlement-page-header {
+        padding: 20px;
+    }
+
+    .admin-settlement-page .page-title {
+        font-size: 23px;
+    }
+
+    .admin-settlement-page .settlement-card-content {
+        padding: 20px;
+    }
+
+    .admin-settlement-page .settlement-table thead th,
+    .admin-settlement-page .settlement-table tbody td {
+        padding: 13px;
+    }
+
+    .settlement-receipt-modal .modal-body {
+        padding: 16px;
+    }
+
+    .settlement-receipt-modal .modal-header {
+        padding: 18px;
+    }
+}

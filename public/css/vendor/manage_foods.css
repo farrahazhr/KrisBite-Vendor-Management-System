@@ -1,0 +1,331 @@
+
+/* =========================================
+   KRISBITE - VENDOR MANAGE FOODS
+   Charcoal Black & Midnight Navy
+========================================= */
+
+.vendor-manage-foods {
+    font-family: 'Inter', sans-serif;
+    color: #23272E;
+    padding: 8px 0 30px;
+}
+
+/* =========================================
+   MAIN CARD
+========================================= */
+
+.vendor-manage-foods .foods-main-card {
+    background-color: #FFFFFF;
+    border: 1px solid #D5DCE5;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.05);
+    overflow: hidden;
+}
+
+/* =========================================
+   PAGE HEADER
+========================================= */
+
+.vendor-manage-foods .foods-page-header {
+    padding: 25px 28px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #D5DCE5;
+}
+
+.vendor-manage-foods .page-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: #23272E;
+    margin-bottom: 8px;
+}
+
+.vendor-manage-foods .page-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #667085;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* =========================================
+   PAGE CONTENT
+========================================= */
+
+.vendor-manage-foods .foods-page-content {
+    padding: 28px;
+}
+
+/* =========================================
+   ALERT MESSAGES
+========================================= */
+
+.vendor-manage-foods .alert {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 13px 16px;
+    margin-bottom: 22px;
+}
+
+/* =========================================
+   SECTION HEADERS
+========================================= */
+
+.vendor-manage-foods .foods-section-header {
+    margin-bottom: 20px;
+}
+
+.vendor-manage-foods .foods-section-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #23272E;
+    margin-bottom: 7px;
+}
+
+.vendor-manage-foods .foods-section-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #667085;
+    margin-bottom: 0;
+}
+
+/* =========================================
+   FORM LABELS
+========================================= */
+
+.vendor-manage-foods .form-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #344054;
+    margin-bottom: 8px;
+}
+
+/* =========================================
+   FORM INPUTS
+========================================= */
+
+.vendor-manage-foods .foods-input {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #23272E;
+
+    background-color: #FFFFFF;
+    border: 1px solid #C9D2DE;
+    border-radius: 6px;
+
+    min-height: 42px;
+    padding: 9px 12px;
+
+    box-shadow: none;
+}
+
+.vendor-manage-foods .foods-input::placeholder {
+    color: #98A2B3;
+}
+
+.vendor-manage-foods .foods-input:focus {
+    border-color: #34557E;
+    box-shadow: 0 0 0 3px rgba(52, 85, 126, 0.12);
+}
+
+/* File Input */
+
+.vendor-manage-foods input[type="file"] {
+    padding: 7px 10px;
+}
+
+.vendor-manage-foods input[type="file"]::file-selector-button {
+    background-color: #EDF1F6;
+    color: #344054;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    margin-right: 12px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+/* =========================================
+   BUTTONS
+========================================= */
+
+.vendor-manage-foods .foods-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+
+    padding: 10px 15px;
+    border-radius: 6px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+
+    transition: background-color 0.15s ease;
+}
+
+/* Add Food Button */
+
+.vendor-manage-foods .btn-add-food {
+    width: 100%;
+    min-height: 42px;
+    background-color: #192F50;
+    color: #FFFFFF;
+    border: 1px solid #192F50;
+}
+
+.vendor-manage-foods .btn-add-food:hover {
+    background-color: #34557E;
+    border-color: #34557E;
+    color: #FFFFFF;
+}
+
+/* Delete Button */
+
+.vendor-manage-foods .btn-delete-food {
+    background-color: #FFFFFF;
+    color: #B43C3C;
+    border: 1px solid #B43C3C;
+    padding: 8px 13px;
+}
+
+.vendor-manage-foods .btn-delete-food:hover {
+    background-color: #B43C3C;
+    color: #FFFFFF;
+}
+
+/* =========================================
+   SECTION DIVIDER
+========================================= */
+
+.vendor-manage-foods .foods-divider {
+    height: 1px;
+    background-color: #D5DCE5;
+    margin: 30px 0;
+}
+
+/* =========================================
+   FOODS TABLE
+========================================= */
+
+.vendor-manage-foods .foods-table-wrapper {
+    width: 100%;
+    border: 1px solid #D5DCE5;
+    border-radius: 7px;
+}
+
+.vendor-manage-foods .foods-table {
+    width: 100%;
+    margin-bottom: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.vendor-manage-foods .foods-table thead th {
+    background-color: #F2F5F9;
+    color: #344054;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 17px;
+    border-bottom: 1px solid #D5DCE5;
+    white-space: nowrap;
+}
+
+.vendor-manage-foods .foods-table tbody td {
+    padding: 14px 17px;
+    color: #344054;
+    border-color: #E8ECF1;
+    vertical-align: middle;
+}
+
+.vendor-manage-foods .foods-table tbody tr:hover {
+    background-color: #F8FAFC;
+}
+
+/* =========================================
+   FOOD IMAGE
+========================================= */
+
+.vendor-manage-foods .food-thumbnail {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #D5DCE5;
+    display: block;
+}
+
+/* =========================================
+   FOOD NAME AND PRICE
+========================================= */
+
+.vendor-manage-foods .food-name {
+    font-weight: 500;
+    color: #23272E !important;
+}
+
+.vendor-manage-foods .food-price {
+    font-weight: 500;
+    color: #344054;
+    white-space: nowrap;
+}
+
+/* =========================================
+   EMPTY STATE
+========================================= */
+
+.vendor-manage-foods .foods-empty-state {
+    padding: 45px 20px !important;
+    text-align: center;
+    color: #667085 !important;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 767.98px) {
+
+    .vendor-manage-foods {
+        padding-top: 5px;
+    }
+
+    .vendor-manage-foods .foods-page-header {
+        padding: 20px;
+    }
+
+    .vendor-manage-foods .page-title {
+        font-size: 23px;
+    }
+
+    .vendor-manage-foods .foods-page-content {
+        padding: 20px;
+    }
+
+    .vendor-manage-foods .foods-table thead th,
+    .vendor-manage-foods .foods-table tbody td {
+        padding: 13px;
+    }
+
+    .vendor-manage-foods .food-thumbnail {
+        width: 52px;
+        height: 52px;
+    }
+
+}

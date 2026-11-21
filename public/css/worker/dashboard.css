@@ -1,0 +1,269 @@
+
+/* =========================================
+   KRISBITE - WORKER DASHBOARD
+   CHARCOAL BLACK & MIDNIGHT NAVY
+========================================= */
+
+.worker-dashboard {
+    font-family: 'Inter', sans-serif;
+    padding-top: 8px;
+    padding-bottom: 30px;
+}
+
+/* =========================================
+   PAGE HEADER
+========================================= */
+
+.worker-dashboard-header {
+    margin-bottom: 27px;
+}
+
+.worker-dashboard .worker-page-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: #23272E;
+    margin-bottom: 8px;
+}
+
+.worker-dashboard .worker-page-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #667085;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* =========================================
+   STATISTIC CARDS
+========================================= */
+
+.worker-dashboard .worker-stats-row {
+    margin-bottom: 30px;
+}
+
+.worker-dashboard .worker-stat-card {
+    border: none;
+    border-radius: 9px;
+    padding: 22px;
+    min-height: 130px;
+    height: 100%;
+    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.08);
+    display: flex;
+    align-items: center;
+}
+
+/* TODAY INVOICE - MIDNIGHT NAVY */
+
+.worker-dashboard .stat-invoices {
+    background-color: #192F50;
+}
+
+/* PENDING TALLY - AMBER */
+
+.worker-dashboard .stat-tally {
+    background-color: #C18A30;
+}
+
+/* TODAY SETTLEMENT - GREEN */
+
+.worker-dashboard .stat-settlements {
+    background-color: #267345;
+}
+
+/* PENDING STOCK-IN - MUTED RED */
+
+.worker-dashboard .stat-stock {
+    background-color: #A74B45;
+}
+
+/* STAT CONTENT */
+
+.worker-dashboard .worker-stat-content {
+    width: 100%;
+}
+
+.worker-dashboard .worker-stat-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.88);
+    margin-bottom: 15px;
+}
+
+.worker-dashboard .worker-stat-value {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 1.25;
+    margin: 0;
+    overflow-wrap: anywhere;
+}
+
+/* =========================================
+   RECENT ACTIVITY CARD
+========================================= */
+
+.worker-dashboard .worker-activity-card {
+    background: #FFFFFF;
+    border: 1px solid #D5DCE5;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.05);
+    overflow: hidden;
+}
+
+/* CARD HEADER */
+
+.worker-dashboard .worker-activity-header {
+    padding: 22px 26px;
+    border-bottom: 1px solid #D5DCE5;
+    background: #FFFFFF;
+}
+
+.worker-dashboard .worker-section-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #23272E;
+    margin: 0;
+}
+
+/* CARD BODY */
+
+.worker-dashboard .worker-activity-body {
+    padding: 10px 26px;
+}
+
+/* ACTIVITY LIST */
+
+.worker-dashboard .worker-activity-list {
+    margin: 0;
+}
+
+.worker-dashboard .worker-activity-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    flex-wrap: wrap;
+    padding: 18px 0;
+    border-bottom: 1px solid #E8ECF1;
+    background: transparent;
+}
+
+.worker-dashboard .worker-activity-item:last-child {
+    border-bottom: none;
+}
+
+.worker-dashboard .worker-activity-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #344054;
+}
+
+/* VENDOR NAME */
+
+.worker-dashboard .worker-activity-vendor {
+    font-weight: 600;
+    color: #192F50;
+}
+
+/* ACTIVITY STATUS */
+
+.worker-dashboard .worker-activity-status {
+    font-weight: 400;
+}
+
+.worker-dashboard .activity-completed {
+    color: #267345;
+}
+
+.worker-dashboard .activity-settled {
+    color: #34557E;
+}
+
+.worker-dashboard .activity-verified {
+    color: #667085;
+}
+
+/* ACTIVITY TIMESTAMP */
+
+.worker-dashboard .worker-activity-time {
+    display: inline-block;
+    background-color: #F2F5F9;
+    border: 1px solid #E4E9F0;
+    border-radius: 6px;
+    padding: 6px 10px;
+    color: #667085;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+/* =========================================
+   EMPTY STATE
+========================================= */
+
+.worker-dashboard .worker-empty-activity {
+    text-align: center;
+    padding: 35px 20px;
+}
+
+.worker-dashboard .worker-empty-activity i {
+    display: block;
+    font-size: 30px;
+    color: #98A2B3;
+    margin-bottom: 13px;
+}
+
+.worker-dashboard .worker-empty-activity p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #667085;
+    margin: 0;
+    line-height: 1.7;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 767.98px) {
+
+    .worker-dashboard .worker-page-title {
+        font-size: 23px;
+    }
+
+    .worker-dashboard .worker-dashboard-header {
+        margin-bottom: 22px;
+    }
+
+    .worker-dashboard .worker-stat-card {
+        min-height: 115px;
+        padding: 19px;
+    }
+
+    .worker-dashboard .worker-stat-value {
+        font-size: 25px;
+    }
+
+    .worker-dashboard .worker-activity-header {
+        padding: 19px 20px;
+    }
+
+    .worker-dashboard .worker-activity-body {
+        padding: 8px 20px;
+    }
+
+    .worker-dashboard .worker-activity-item {
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .worker-dashboard .worker-activity-time {
+        font-size: 11px;
+    }
+}

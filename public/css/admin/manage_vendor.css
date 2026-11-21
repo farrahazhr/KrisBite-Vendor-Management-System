@@ -1,0 +1,451 @@
+
+/* =========================================
+   KRISBITE - MANAGE VENDORS
+   Charcoal Black & Midnight Navy
+========================================= */
+
+.manage-vendor-page {
+    font-family: 'Inter', sans-serif;
+    color: #23272E;
+    padding-top: 8px;
+    padding-bottom: 30px;
+}
+
+/* =========================================
+   PAGE HEADER
+========================================= */
+
+.manage-vendor-page .page-header {
+    margin-bottom: 24px;
+}
+
+.manage-vendor-page .page-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: #23272E;
+    margin-bottom: 8px;
+}
+
+.manage-vendor-page .page-description {
+    font-size: 15px;
+    color: #667085;
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+/* =========================================
+   ALERT MESSAGES
+========================================= */
+
+.manage-vendor-page .alert {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 13px 16px;
+    margin-bottom: 20px;
+}
+
+/* =========================================
+   VENDOR APPLICATION SLOTS CARD
+========================================= */
+
+.manage-vendor-page .vendor-slots-card {
+    background-color: #FFFFFF;
+    border: 1px solid #D5DCE5;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.05);
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+/* CARD HEADER */
+
+.manage-vendor-page .vendor-slots-header {
+    padding: 19px 22px;
+    background-color: #EDF1F6;
+    border-bottom: 1px solid #D5DCE5;
+}
+
+.manage-vendor-page .vendor-slots-heading {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.manage-vendor-page .vendor-slots-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+    width: 43px;
+    height: 43px;
+
+    background-color: #192F50;
+    color: #FFFFFF;
+
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.manage-vendor-page .vendor-slots-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #23272E;
+    margin: 0 0 5px;
+}
+
+.manage-vendor-page .vendor-slots-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #667085;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* CARD BODY */
+
+.manage-vendor-page .vendor-slots-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 22px;
+}
+
+/* STATUS INFORMATION */
+
+.manage-vendor-page .vendor-slots-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.manage-vendor-page .vendor-slots-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #344054;
+}
+
+/* STATUS BADGES */
+
+.manage-vendor-page .vendor-slots-status {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 8px 13px;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.4;
+    white-space: nowrap;
+}
+
+.manage-vendor-page .slots-open {
+    background-color: #E2F3E8;
+    color: #267345;
+}
+
+.manage-vendor-page .slots-closed {
+    background-color: #FBE6E6;
+    color: #A73737;
+}
+
+/* ACTION FORM */
+
+.manage-vendor-page .vendor-slots-action form {
+    margin: 0;
+}
+
+/* SOLID ACTION BUTTONS */
+
+.manage-vendor-page .vendor-slots-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+
+    min-height: 40px;
+    padding: 10px 17px;
+
+    border-radius: 6px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+
+    cursor: pointer;
+    white-space: nowrap;
+
+    transition: background-color 0.15s ease,
+                border-color 0.15s ease;
+}
+
+/* CLOSE SLOTS */
+
+.manage-vendor-page .slots-close-btn {
+    background-color: #B43C3C;
+    color: #FFFFFF;
+    border: 1px solid #B43C3C;
+}
+
+.manage-vendor-page .slots-close-btn:hover {
+    background-color: #922E2E;
+    border-color: #922E2E;
+    color: #FFFFFF;
+}
+
+/* OPEN SLOTS */
+
+.manage-vendor-page .slots-open-btn {
+    background-color: #267345;
+    color: #FFFFFF;
+    border: 1px solid #267345;
+}
+
+.manage-vendor-page .slots-open-btn:hover {
+    background-color: #1D5A35;
+    border-color: #1D5A35;
+    color: #FFFFFF;
+}
+
+/* =========================================
+   VENDOR TABLE CARD
+========================================= */
+
+.manage-vendor-page .vendor-table-card {
+    background-color: #FFFFFF;
+    border: 1px solid #D5DCE5;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.05);
+    overflow: hidden;
+}
+
+.manage-vendor-page .vendor-table-header {
+    padding: 19px 22px;
+    background-color: #EDF1F6;
+    border-bottom: 1px solid #D5DCE5;
+    gap: 12px;
+}
+
+.manage-vendor-page .vendor-table-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #23272E;
+    margin: 0;
+}
+
+.manage-vendor-page .vendor-table-count {
+    font-size: 14px;
+    color: #667085;
+    white-space: nowrap;
+}
+
+/* =========================================
+   TABLE
+========================================= */
+
+.manage-vendor-page .table-responsive {
+    width: 100%;
+}
+
+.manage-vendor-page .vendor-table {
+    width: 100%;
+    margin-bottom: 0;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.manage-vendor-page .vendor-table thead th {
+    background-color: #F2F5F9;
+    color: #344054;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 15px 17px;
+    border-bottom: 1px solid #D5DCE5;
+    white-space: nowrap;
+}
+
+.manage-vendor-page .vendor-table tbody td {
+    padding: 17px;
+    color: #344054;
+    border-color: #E8ECF1;
+    vertical-align: middle;
+}
+
+.manage-vendor-page .vendor-table tbody tr:hover {
+    background-color: #F8FAFC;
+}
+
+.manage-vendor-page .vendor-table .business-name {
+    font-weight: 500;
+    color: #23272E;
+}
+
+.manage-vendor-page .vendor-table .email-text {
+    color: #475467;
+    overflow-wrap: anywhere;
+}
+
+/* =========================================
+   APPLICATION STATUS BADGES
+========================================= */
+
+.manage-vendor-page .vendor-status {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.4;
+    white-space: nowrap;
+}
+
+.manage-vendor-page .status-pending {
+    background-color: #FFF0CF;
+    color: #946200;
+}
+
+.manage-vendor-page .status-approved {
+    background-color: #E2F3E8;
+    color: #267345;
+}
+
+.manage-vendor-page .status-rejected {
+    background-color: #FBE6E6;
+    color: #A73737;
+}
+
+/* =========================================
+   TABLE BUTTONS
+========================================= */
+
+.manage-vendor-page .vendor-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 8px 13px;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.15s ease;
+    white-space: nowrap;
+}
+
+/* VIEW CERTIFICATE - SOLID NAVY */
+
+.manage-vendor-page .btn-certificate {
+    background-color: #192F50;
+    color: #FFFFFF;
+    border: 1px solid #192F50;
+}
+
+.manage-vendor-page .btn-certificate:hover {
+    background-color: #34557E;
+    border-color: #34557E;
+    color: #FFFFFF;
+}
+
+/* APPROVE - SOLID GREEN */
+
+.manage-vendor-page .btn-approve {
+    background-color: #267345;
+    color: #FFFFFF;
+    border: 1px solid #267345;
+}
+
+.manage-vendor-page .btn-approve:hover {
+    background-color: #1D5A35;
+    color: #FFFFFF;
+}
+
+/* REJECT - SOLID RED */
+
+.manage-vendor-page .btn-reject {
+    background-color: #B43C3C;
+    color: #FFFFFF;
+    border: 1px solid #B43C3C;
+}
+
+.manage-vendor-page .btn-reject:hover {
+    background-color: #922E2E;
+    color: #FFFFFF;
+}
+
+.manage-vendor-page .action-buttons {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.manage-vendor-page .no-action {
+    color: #667085;
+    font-size: 13px;
+}
+
+/* =========================================
+   EMPTY STATE
+========================================= */
+
+.manage-vendor-page .empty-state {
+    padding: 45px 20px !important;
+    text-align: center;
+    color: #667085 !important;
+    font-size: 15px;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 767.98px) {
+
+    .manage-vendor-page {
+        padding-top: 5px;
+    }
+
+    .manage-vendor-page .vendor-slots-header {
+        padding: 17px;
+    }
+
+    .manage-vendor-page .vendor-slots-body {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 18px;
+        padding: 17px;
+    }
+
+    .manage-vendor-page .vendor-slots-action {
+        width: 100%;
+    }
+
+    .manage-vendor-page .vendor-slots-btn {
+        width: 100%;
+    }
+
+    .manage-vendor-page .vendor-table-header {
+        padding: 17px;
+        flex-wrap: wrap;
+    }
+
+    .manage-vendor-page .vendor-table thead th,
+    .manage-vendor-page .vendor-table tbody td {
+        padding: 13px;
+    }
+
+    .manage-vendor-page .vendor-btn {
+        padding: 7px 11px;
+    }
+
+}

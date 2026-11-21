@@ -1,0 +1,470 @@
+
+/* =========================================
+   KRISBITE WORKER - SETTLEMENT MANAGEMENT
+   CHARCOAL BLACK & MIDNIGHT NAVY
+========================================= */
+
+.worker-settlement-page {
+    font-family: 'Inter', sans-serif;
+    color: #23272E;
+    padding: 8px 0 30px;
+}
+
+/* =========================================
+   MAIN CARD
+========================================= */
+
+.worker-settlement-page .settlement-main-card {
+    background-color: #FFFFFF;
+    border: 1px solid #D5DCE5;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.05);
+    overflow: hidden;
+}
+
+/* =========================================
+   PAGE HEADER
+========================================= */
+
+.worker-settlement-page .settlement-page-header {
+    padding: 25px 28px;
+    border-bottom: 1px solid #D5DCE5;
+}
+
+.worker-settlement-page .settlement-page-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: #23272E;
+    margin-bottom: 8px;
+}
+
+.worker-settlement-page .settlement-page-description {
+    font-size: 15px;
+    color: #667085;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* =========================================
+   CONTENT
+========================================= */
+
+.worker-settlement-page .settlement-page-content {
+    padding: 28px;
+}
+
+.worker-settlement-page .settlement-section-header {
+    margin-bottom: 22px;
+}
+
+.worker-settlement-page .settlement-section-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #23272E;
+    margin-bottom: 7px;
+}
+
+.worker-settlement-page .settlement-section-description {
+    font-size: 14px;
+    color: #667085;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.worker-settlement-page .settlement-section-divider {
+    height: 1px;
+    background-color: #D5DCE5;
+    margin: 32px 0;
+}
+
+/* =========================================
+   VENDOR CARDS
+========================================= */
+
+.worker-settlement-page .settlement-vendor-card {
+    border: 1px solid #D5DCE5;
+    border-radius: 9px;
+    background: #FFFFFF;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.worker-settlement-page .settlement-vendor-card:last-child {
+    margin-bottom: 0;
+}
+
+.worker-settlement-page .settlement-vendor-header {
+    padding: 18px 22px;
+    background-color: #EDF1F6;
+    border-bottom: 1px solid #D5DCE5;
+}
+
+.worker-settlement-page .settlement-vendor-name {
+    font-size: 15px;
+    color: #23272E;
+    margin-bottom: 6px;
+}
+
+.worker-settlement-page .settlement-vendor-name b {
+    font-weight: 600;
+}
+
+.worker-settlement-page .settlement-vendor-meta {
+    font-size: 13px;
+    color: #667085;
+}
+
+.worker-settlement-page .settlement-vendor-body {
+    padding: 22px;
+}
+
+/* =========================================
+   TABLES
+========================================= */
+
+.worker-settlement-page .settlement-table-wrapper {
+    border: 1px solid #D5DCE5;
+    border-radius: 7px;
+    overflow-x: auto;
+}
+
+.worker-settlement-page .settlement-table {
+    width: 100%;
+    margin-bottom: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.worker-settlement-page .settlement-table thead th {
+    background-color: #F2F5F9;
+    color: #344054;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 15px 13px;
+    border-bottom: 1px solid #D5DCE5;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.worker-settlement-page .settlement-table tbody td {
+    padding: 13px;
+    color: #344054;
+    border-color: #E8ECF1;
+    vertical-align: middle;
+}
+
+.worker-settlement-page .settlement-table tbody tr:hover {
+    background-color: #F8FAFC;
+}
+
+/* GRAND TOTAL */
+
+.worker-settlement-page .settlement-table tfoot td {
+    background-color: #EDF1F6;
+    border-color: #D5DCE5;
+    padding: 15px 13px;
+    color: #23272E;
+    vertical-align: middle;
+}
+
+.worker-settlement-page .settlement-table tfoot .text-danger {
+    color: #B43C3C !important;
+}
+
+.worker-settlement-page .settlement-table tfoot .text-success {
+    color: #267345 !important;
+}
+
+/* =========================================
+   INPUTS
+========================================= */
+
+.worker-settlement-page .settlement-input {
+    width: 100%;
+    min-width: 85px;
+    min-height: 40px;
+    border: 1px solid #C9D2DE;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    padding: 8px 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #23272E;
+    box-shadow: none;
+}
+
+.worker-settlement-page .settlement-input:focus {
+    border-color: #34557E;
+    box-shadow: 0 0 0 3px rgba(52, 85, 126, 0.12);
+}
+
+.worker-settlement-page .settlement-input::placeholder {
+    color: #98A2B3;
+    opacity: 1;
+}
+
+/* READONLY COMMISSION & PAYOUT */
+
+.worker-settlement-page .settlement-readonly {
+    width: 100%;
+    min-width: 95px;
+    min-height: 40px;
+    border: 1px solid #E4E9F0 !important;
+    border-radius: 6px;
+    background-color: #F2F5F9 !important;
+    padding: 8px 9px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    box-shadow: none;
+}
+
+.worker-settlement-page .settlement-readonly.text-danger {
+    color: #B43C3C !important;
+}
+
+.worker-settlement-page .settlement-readonly.text-success {
+    color: #267345 !important;
+}
+
+/* =========================================
+   BUTTONS - SOLID BACKGROUND
+========================================= */
+
+.worker-settlement-page .settlement-form-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+/* SUBMIT TO ADMIN - SOLID NAVY */
+
+.worker-settlement-page .settlement-submit-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #192F50;
+    color: #FFFFFF;
+    border: 1px solid #192F50;
+    border-radius: 6px;
+    padding: 11px 18px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.worker-settlement-page .settlement-submit-btn:hover,
+.worker-settlement-page .settlement-submit-btn:focus {
+    background-color: #34557E;
+    border-color: #34557E;
+    color: #FFFFFF;
+}
+
+/* VIEW RECEIPT - SOLID NAVY */
+
+.worker-settlement-page .settlement-view-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    background-color: #192F50;
+    color: #FFFFFF;
+    border: 1px solid #192F50;
+    border-radius: 6px;
+    padding: 9px 14px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.worker-settlement-page .settlement-view-btn:hover,
+.worker-settlement-page .settlement-view-btn:focus {
+    background-color: #34557E;
+    border-color: #34557E;
+    color: #FFFFFF;
+}
+
+/* =========================================
+   STATUS BADGES
+========================================= */
+
+.worker-settlement-page .settlement-status-badge {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 7px 11px;
+    border-radius: 6px;
+    white-space: nowrap;
+}
+
+/* =========================================
+   EMPTY STATE
+========================================= */
+
+.worker-settlement-page .settlement-empty-state {
+    padding: 40px 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #D5DCE5;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.worker-settlement-page .settlement-empty-state h5 {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #667085;
+    margin: 0;
+}
+
+/* =========================================
+   RECEIPT MODAL
+========================================= */
+
+.worker-settlement-modal {
+    font-family: 'Inter', sans-serif;
+}
+
+.worker-settlement-modal .modal-content {
+    border: 1px solid #D5DCE5;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.worker-settlement-modal .modal-header {
+    background-color: #EDF1F6;
+    border-bottom: 1px solid #D5DCE5;
+    padding: 20px 24px;
+}
+
+.worker-settlement-modal .modal-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: #23272E;
+}
+
+.worker-settlement-modal .modal-body {
+    padding: 24px;
+}
+
+.worker-settlement-modal .modal-body p {
+    font-size: 14px;
+    color: #475467;
+    margin-bottom: 15px;
+}
+
+/* MODAL TABLE */
+
+.worker-settlement-modal .settlement-modal-table-wrapper {
+    border: 1px solid #D5DCE5;
+    border-radius: 7px;
+    overflow-x: auto;
+}
+
+.worker-settlement-modal .settlement-modal-table {
+    width: 100%;
+    margin-bottom: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.worker-settlement-modal .settlement-modal-table thead th {
+    background-color: #F2F5F9;
+    color: #344054;
+    font-weight: 600;
+    padding: 13px;
+    white-space: nowrap;
+}
+
+.worker-settlement-modal .settlement-modal-table tbody td {
+    padding: 13px;
+    color: #344054;
+    border-color: #E8ECF1;
+}
+
+.worker-settlement-modal .settlement-modal-table tfoot td {
+    background-color: #EDF1F6;
+    padding: 14px 13px;
+    border-color: #D5DCE5;
+}
+
+.worker-settlement-modal .settlement-modal-table .text-danger {
+    color: #B43C3C !important;
+}
+
+.worker-settlement-modal .settlement-modal-table .text-success {
+    color: #267345 !important;
+}
+
+/* MODAL FOOTER */
+
+.worker-settlement-modal .modal-footer {
+    padding: 16px 24px;
+    border-top: 1px solid #D5DCE5;
+}
+
+/* CLOSE BUTTON - SOLID CHARCOAL */
+
+.worker-settlement-modal .settlement-close-btn {
+    background-color: #475467;
+    color: #FFFFFF;
+    border: 1px solid #475467;
+    border-radius: 6px;
+    padding: 10px 17px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.worker-settlement-modal .settlement-close-btn:hover,
+.worker-settlement-modal .settlement-close-btn:focus {
+    background-color: #344054;
+    border-color: #344054;
+    color: #FFFFFF;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 767.98px) {
+
+    .worker-settlement-page .settlement-page-header {
+        padding: 20px;
+    }
+
+    .worker-settlement-page .settlement-page-title {
+        font-size: 23px;
+    }
+
+    .worker-settlement-page .settlement-page-content {
+        padding: 20px;
+    }
+
+    .worker-settlement-page .settlement-vendor-header {
+        padding: 16px;
+    }
+
+    .worker-settlement-page .settlement-vendor-body {
+        padding: 16px;
+    }
+
+    .worker-settlement-page .settlement-form-actions {
+        justify-content: stretch;
+    }
+
+    .worker-settlement-page .settlement-submit-btn {
+        width: 100%;
+    }
+
+    .worker-settlement-modal .modal-body {
+        padding: 16px;
+    }
+}

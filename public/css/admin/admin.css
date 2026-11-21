@@ -1,0 +1,305 @@
+
+/* =========================================
+   KRISBITE - ADMIN LAYOUT
+========================================= */
+
+.admin-layout {
+    margin: 0;
+    background-color: #F1F3F6;
+    color: #23272E;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+.admin-wrapper {
+    min-height: 100vh;
+}
+
+/* =========================================
+   SIDEBAR
+========================================= */
+
+.admin-sidebar {
+    width: 250px;
+    min-width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #23272E;
+    color: #FFFFFF;
+    padding: 24px 15px;
+}
+
+.sidebar-brand {
+    text-align: center;
+    padding: 10px 0 18px;
+}
+
+.sidebar-brand h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.sidebar-brand span {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    color: #AEB7C4;
+}
+
+.sidebar-divider {
+    border-top: 1px solid rgba(255, 255, 255, 0.13);
+    margin-bottom: 22px;
+}
+
+/* Navigation Links */
+
+.sidebar-navigation .nav-item {
+    margin-bottom: 6px;
+}
+
+.sidebar-navigation .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+
+    padding: 13px 15px;
+    border-radius: 7px;
+
+    font-size: 14px;
+    font-weight: 500;
+    color: #D4D9E1;
+
+    text-decoration: none;
+    transition: background-color 0.15s ease;
+}
+
+.sidebar-navigation .nav-link i {
+    font-size: 17px;
+    width: 20px;
+    text-align: center;
+}
+
+.sidebar-navigation .nav-link:hover {
+    background-color: #343B46;
+    color: #FFFFFF;
+}
+
+.sidebar-navigation .nav-link.active {
+    background-color: #192F50;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+/* Logout */
+
+.sidebar-footer {
+    margin-top: auto;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+.sidebar-footer form {
+    margin: 0;
+}
+
+.sidebar-logout {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+
+    width: 100%;
+    padding: 13px 15px;
+
+    background: transparent;
+    border: none;
+    border-radius: 7px;
+
+    color: #E4E8EE;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    cursor: pointer;
+}
+
+.sidebar-logout i {
+    font-size: 17px;
+    width: 20px;
+    text-align: center;
+}
+
+.sidebar-logout:hover {
+    background-color: #343B46;
+    color: #FFFFFF;
+}
+
+/* =========================================
+   MAIN CONTENT
+========================================= */
+
+.admin-main {
+    margin-left: 250px;
+    width: calc(100% - 250px);
+    min-width: 0;
+    min-height: 100vh;
+}
+
+/* =========================================
+   TOP NAVIGATION
+========================================= */
+
+.admin-topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+
+    min-height: 70px;
+    padding: 15px 28px;
+
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #DCE2EA;
+}
+
+.admin-topbar-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: #23272E;
+}
+
+.admin-user {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    font-size: 14px;
+    color: #667085;
+}
+
+.admin-user strong {
+    font-weight: 600;
+    color: #192F50;
+}
+
+/* =========================================
+   PAGE CONTENT
+========================================= */
+
+.admin-content {
+    padding: 18px 28px 35px;
+    min-height: calc(100vh - 70px);
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 991.98px) {
+    .admin-sidebar {
+        width: 210px;
+        min-width: 210px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .admin-main {
+        margin-left: 210px;
+        width: calc(100% - 210px);
+    }
+
+    .admin-content {
+        padding: 18px 20px 30px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .admin-sidebar {
+        width: 100%;
+        min-width: 0;
+        height: auto;
+        position: relative;
+    }
+
+    .admin-wrapper {
+        flex-direction: column;
+    }
+
+    .admin-main {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .sidebar-navigation .nav {
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .sidebar-navigation .nav-item {
+        margin-bottom: 0;
+    }
+
+    .sidebar-navigation .nav-link {
+        padding: 10px 12px;
+    }
+
+    .sidebar-footer {
+        margin-top: 15px;
+    }
+
+    .admin-topbar {
+        padding: 15px 18px;
+    }
+
+    .admin-content {
+        padding: 15px 18px 25px;
+    }
+
+    .admin-user {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+}
+
+/* Admin Panel Title */
+.admin-topbar-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+/* KrisBite Sidebar Branding */
+.sidebar-brand h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Sidebar Navigation */
+.sidebar-navigation .nav-link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+/* Active Navigation */
+.sidebar-navigation .nav-link.active {
+    font-weight: 600;
+}
+
+/* Main Content */
+.admin-layout {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}

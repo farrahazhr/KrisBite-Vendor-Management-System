@@ -1,0 +1,325 @@
+
+/* =========================================
+   KRISBITE - WORKER LAYOUT
+   CHARCOAL BLACK & MIDNIGHT NAVY
+========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body.worker-layout {
+    margin: 0;
+    background-color: #F1F3F6;
+    color: #23272E;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+/* MAIN APP */
+
+.worker-app {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* =========================================
+   SIDEBAR
+========================================= */
+
+.worker-sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #23272E;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+/* BRAND */
+
+.worker-sidebar-brand {
+    padding: 30px 20px 23px;
+    text-align: center;
+}
+
+.worker-sidebar-brand h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: 1.5px;
+    margin-bottom: 7px;
+}
+
+.worker-sidebar-brand span {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: #AEB7C4;
+    letter-spacing: 2px;
+}
+
+/* DIVIDER */
+
+.worker-sidebar-divider {
+    height: 1px;
+    background-color: #3C424C;
+    margin: 0 20px 18px;
+}
+
+/* NAVIGATION */
+
+.worker-sidebar-navigation {
+    flex: 1;
+    padding: 0 13px 24px;
+}
+
+.worker-sidebar-navigation .nav-item {
+    margin-bottom: 6px;
+}
+
+.worker-sidebar-navigation .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    padding: 13px 16px;
+    border-radius: 7px;
+    color: #C9D0DA;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.worker-sidebar-navigation .nav-link i {
+    font-size: 18px;
+    width: 21px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+/* HOVER */
+
+.worker-sidebar-navigation .nav-link:hover {
+    background-color: #303A49;
+    color: #FFFFFF;
+}
+
+/* ACTIVE NAVIGATION */
+
+.worker-sidebar-navigation .nav-link.active {
+    background-color: #192F50;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.worker-sidebar-navigation .nav-link.active i {
+    color: #FFFFFF;
+}
+
+/* LOGOUT */
+
+.worker-sidebar-navigation .worker-logout-item {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #3C424C;
+}
+
+.worker-sidebar-navigation .worker-logout-item form {
+    margin: 0;
+}
+
+.worker-sidebar-navigation .worker-logout-btn {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: none;
+    background: transparent;
+    color: #F0A5A5;
+    text-align: left;
+    cursor: pointer;
+}
+
+.worker-sidebar-navigation .worker-logout-btn:hover {
+    background-color: #493036;
+    color: #FFFFFF;
+}
+
+/* =========================================
+   MAIN WRAPPER
+========================================= */
+
+.worker-main-wrapper {
+    margin-left: 250px;
+    width: calc(100% - 250px);
+    min-width: 0;
+    min-height: 100vh;
+}
+
+/* =========================================
+   TOPBAR
+========================================= */
+
+.worker-topbar {
+    width: 100%;
+    min-height: 76px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #D5DCE5;
+    box-shadow: 0 1px 4px rgba(35, 39, 46, 0.04);
+    padding: 18px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.worker-topbar-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: #23272E;
+}
+
+.worker-topbar-user {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: #667085;
+}
+
+.worker-topbar-user strong {
+    color: #23272E;
+    font-weight: 600;
+}
+
+/* =========================================
+   MAIN CONTENT
+========================================= */
+
+.worker-main-content {
+    padding: 30px;
+    min-height: calc(100vh - 76px);
+}
+
+.worker-main-content > .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* =========================================
+   GENERAL STYLING
+========================================= */
+
+.worker-layout .btn {
+    font-family: 'Inter', sans-serif;
+}
+
+.worker-layout .table {
+    font-family: 'Inter', sans-serif;
+}
+
+.worker-layout .form-control,
+.worker-layout .form-select {
+    font-family: 'Inter', sans-serif;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 991.98px) {
+
+    .worker-sidebar {
+        width: 215px;
+    }
+
+    .worker-main-wrapper {
+        margin-left: 215px;
+        width: calc(100% - 215px);
+    }
+
+    .worker-main-content {
+        padding: 22px;
+    }
+
+    .worker-topbar {
+        padding: 18px 22px;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .worker-sidebar {
+        width: 70px;
+    }
+
+    .worker-sidebar-brand {
+        padding: 25px 5px;
+    }
+
+    .worker-sidebar-brand h4 {
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+
+    .worker-sidebar-brand span {
+        display: none;
+    }
+
+    .worker-sidebar-divider {
+        margin: 0 10px 15px;
+    }
+
+    .worker-sidebar-navigation {
+        padding: 0 8px;
+    }
+
+    .worker-sidebar-navigation .nav-link {
+        justify-content: center;
+        padding: 13px 8px;
+    }
+
+    .worker-sidebar-navigation .nav-link span {
+        display: none;
+    }
+
+    .worker-sidebar-navigation .nav-link i {
+        font-size: 20px;
+    }
+
+    .worker-main-wrapper {
+        margin-left: 70px;
+        width: calc(100% - 70px);
+    }
+
+    .worker-main-content {
+        padding: 16px;
+    }
+
+    .worker-topbar {
+        min-height: 65px;
+        padding: 15px 16px;
+    }
+
+    .worker-topbar-title {
+        font-size: 16px;
+    }
+
+    .worker-topbar-user {
+        font-size: 12px;
+        justify-content: flex-end;
+    }
+
+    .worker-welcome-text {
+        display: none;
+    }
+}

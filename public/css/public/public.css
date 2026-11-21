@@ -1,0 +1,153 @@
+
+/* =========================================
+   KRISBITE - PUBLIC LAYOUT
+   CHARCOAL BLACK & MIDNIGHT NAVY
+========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body.krisbite-public-layout {
+    margin: 0;
+    background-color: #F1F3F6;
+    color: #23272E;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.krisbite-public-layout .public-navbar {
+    width: 100%;
+    min-height: 76px;
+    background-color: #23272E;
+    border-bottom: 1px solid #343A43;
+    padding: 12px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.krisbite-public-layout .public-navbar-container {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+/* BRAND */
+
+.krisbite-public-layout .public-navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.krisbite-public-layout .public-navbar-brand:hover,
+.krisbite-public-layout .public-navbar-brand:focus {
+    color: #FFFFFF;
+}
+
+/* NAVBAR ACTIONS */
+
+.krisbite-public-layout .public-navbar-actions {
+    gap: 16px;
+}
+
+.krisbite-public-layout .public-navbar-welcome {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #D5DCE5;
+    white-space: nowrap;
+}
+
+.krisbite-public-layout .public-navbar-welcome b {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+/* LOGOUT - SOLID RED */
+
+.krisbite-public-layout .public-logout-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #B43C3C;
+    color: #FFFFFF;
+    border: 1px solid #B43C3C;
+    border-radius: 6px;
+    padding: 10px 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.krisbite-public-layout .public-logout-btn:hover,
+.krisbite-public-layout .public-logout-btn:focus {
+    background-color: #922F2F;
+    border-color: #922F2F;
+    color: #FFFFFF;
+}
+
+/* =========================================
+   MAIN CONTENT
+========================================= */
+
+.krisbite-public-layout .public-main-content {
+    width: 100%;
+    min-height: calc(100vh - 76px);
+    padding: 0;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 767.98px) {
+
+    .krisbite-public-layout .public-navbar {
+        min-height: 68px;
+    }
+
+    .krisbite-public-layout .public-navbar-container {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .krisbite-public-layout .public-navbar-brand {
+        font-size: 19px;
+    }
+
+    .krisbite-public-layout .public-navbar-actions {
+        gap: 10px;
+    }
+
+    .krisbite-public-layout .public-navbar-welcome {
+        font-size: 12px;
+        white-space: normal;
+        text-align: right;
+    }
+
+    .krisbite-public-layout .public-logout-btn {
+        font-size: 12px;
+        padding: 9px 11px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .krisbite-public-layout .public-navbar-brand {
+        font-size: 17px;
+        letter-spacing: 0.5px;
+        margin-right: 8px;
+    }
+
+    .krisbite-public-layout .public-navbar-welcome {
+        font-size: 11px;
+    }
+}

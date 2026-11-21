@@ -1,0 +1,347 @@
+
+/* =========================================
+   KRISBITE WORKER - MANAGE MENU
+   CHARCOAL BLACK & MIDNIGHT NAVY
+========================================= */
+
+.worker-manage-menu {
+    font-family: 'Inter', sans-serif;
+    color: #23272E;
+    padding: 8px 0 30px;
+}
+
+/* =========================================
+   MAIN CARD
+========================================= */
+
+.worker-manage-menu .menu-main-card {
+    background-color: #FFFFFF;
+    border: 1px solid #D5DCE5;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.05);
+    overflow: hidden;
+}
+
+/* =========================================
+   PAGE HEADER
+========================================= */
+
+.worker-manage-menu .menu-page-header {
+    padding: 25px 28px;
+    border-bottom: 1px solid #D5DCE5;
+}
+
+.worker-manage-menu .menu-page-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: #23272E;
+    margin-bottom: 8px;
+}
+
+.worker-manage-menu .menu-page-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #667085;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* =========================================
+   PAGE CONTENT
+========================================= */
+
+.worker-manage-menu .menu-page-content {
+    padding: 28px;
+}
+
+/* =========================================
+   SECTION HEADER
+========================================= */
+
+.worker-manage-menu .menu-section-header {
+    margin-bottom: 20px;
+}
+
+.worker-manage-menu .menu-section-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #23272E;
+    margin-bottom: 7px;
+}
+
+.worker-manage-menu .menu-section-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #667085;
+    margin: 0;
+}
+
+/* =========================================
+   SEARCH SECTION
+========================================= */
+
+.worker-manage-menu .menu-search-section {
+    margin-bottom: 30px;
+}
+
+.worker-manage-menu .menu-search-wrapper {
+    display: flex;
+    align-items: stretch;
+    gap: 12px;
+    width: 100%;
+    max-width: 780px;
+}
+
+.worker-manage-menu .menu-search-field {
+    position: relative;
+    flex: 1;
+    min-width: 0;
+}
+
+.worker-manage-menu .menu-search-icon {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    color: #98A2B3;
+    font-size: 17px;
+    pointer-events: none;
+}
+
+.worker-manage-menu .menu-search-input {
+    width: 100%;
+    min-height: 46px;
+    border: 1px solid #C9D2DE;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    padding: 11px 15px 11px 45px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #23272E;
+    box-shadow: none;
+}
+
+.worker-manage-menu .menu-search-input::placeholder {
+    color: #98A2B3;
+    opacity: 1;
+}
+
+.worker-manage-menu .menu-search-input:focus {
+    border-color: #34557E;
+    box-shadow: 0 0 0 3px rgba(52, 85, 126, 0.12);
+}
+
+/* SEARCH BUTTON - SOLID NAVY */
+
+.worker-manage-menu .menu-search-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-width: 115px;
+    min-height: 46px;
+    background-color: #192F50;
+    color: #FFFFFF;
+    border: 1px solid #192F50;
+    border-radius: 6px;
+    padding: 10px 18px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.worker-manage-menu .menu-search-btn:hover {
+    background-color: #34557E;
+    border-color: #34557E;
+    color: #FFFFFF;
+}
+
+/* =========================================
+   FOOD GRID
+========================================= */
+
+.worker-manage-menu .menu-grid {
+    margin-top: 0;
+}
+
+/* =========================================
+   FOOD CARD
+========================================= */
+
+.worker-manage-menu .menu-food-card {
+    background-color: #FFFFFF;
+    border: 1px solid #D5DCE5;
+    border-radius: 9px;
+    box-shadow: 0 2px 7px rgba(35, 39, 46, 0.05);
+    overflow: hidden;
+    transition: box-shadow 0.2s ease;
+}
+
+.worker-manage-menu .menu-food-card:hover {
+    box-shadow: 0 5px 16px rgba(35, 39, 46, 0.10);
+}
+
+/* FOOD IMAGE */
+
+.worker-manage-menu .menu-food-image {
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 1px solid #E8ECF1;
+}
+
+/* FOOD CARD BODY */
+
+.worker-manage-menu .menu-food-body {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+}
+
+/* FOOD NAME */
+
+.worker-manage-menu .menu-food-name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #23272E;
+    line-height: 1.5;
+    margin-bottom: 9px;
+}
+
+/* VENDOR NAME */
+
+.worker-manage-menu .menu-food-vendor {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #667085;
+    line-height: 1.5;
+    margin-bottom: 18px;
+}
+
+.worker-manage-menu .menu-food-vendor b {
+    color: #344054;
+    font-weight: 600;
+}
+
+/* =========================================
+   FOOD CARD FOOTER
+========================================= */
+
+.worker-manage-menu .menu-food-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+
+/* PRICE */
+
+.worker-manage-menu .menu-food-price {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #B43C3C;
+    white-space: nowrap;
+}
+
+/* =========================================
+   AVAILABLE BUTTON - SOLID GREEN
+========================================= */
+
+.worker-manage-menu .menu-available-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #267345;
+    color: #FFFFFF;
+    border: 1px solid #267345;
+    border-radius: 6px;
+    padding: 9px 13px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.worker-manage-menu .menu-available-btn:hover {
+    background-color: #1D5C36;
+    border-color: #1D5C36;
+    color: #FFFFFF;
+}
+
+/* =========================================
+   SOLD OUT BADGE - SOLID RED
+========================================= */
+
+.worker-manage-menu .menu-soldout-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #B43C3C;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 10px 13px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+/* =========================================
+   EMPTY STATE
+========================================= */
+
+.worker-manage-menu .menu-empty-state {
+    padding: 45px 20px;
+    border: 1px solid #D5DCE5;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.worker-manage-menu .menu-empty-state h5 {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #667085;
+    margin: 0;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 767.98px) {
+
+    .worker-manage-menu .menu-page-header {
+        padding: 20px;
+    }
+
+    .worker-manage-menu .menu-page-title {
+        font-size: 23px;
+    }
+
+    .worker-manage-menu .menu-page-content {
+        padding: 20px;
+    }
+
+    .worker-manage-menu .menu-search-wrapper {
+        flex-direction: column;
+    }
+
+    .worker-manage-menu .menu-search-btn {
+        width: 100%;
+    }
+
+    .worker-manage-menu .menu-food-image {
+        height: 200px;
+    }
+}

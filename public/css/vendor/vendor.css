@@ -1,0 +1,294 @@
+
+/* =========================================
+   KRISBITE - VENDOR PANEL LAYOUT
+   Charcoal Black & Midnight Navy
+========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #F1F3F6;
+    color: #23272E;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+/* =========================================
+   MAIN LAYOUT
+========================================= */
+
+.vendor-layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* =========================================
+   SIDEBAR
+========================================= */
+
+.vendor-sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #23272E;
+    color: #FFFFFF;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    z-index: 1000;
+}
+
+/* =========================================
+   SIDEBAR BRAND
+========================================= */
+
+.vendor-sidebar-brand {
+    padding: 28px 18px 25px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.vendor-sidebar-brand h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    margin-bottom: 7px;
+}
+
+.vendor-sidebar-brand span {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #AEB8C5;
+}
+
+/* =========================================
+   SIDEBAR NAVIGATION
+========================================= */
+
+.vendor-sidebar-nav {
+    padding: 20px 12px;
+    flex: 1;
+}
+
+.vendor-nav-link {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+
+    padding: 13px 15px;
+    margin-bottom: 6px;
+
+    border-radius: 7px;
+
+    color: #D2D9E3;
+    text-decoration: none;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+
+    transition: background-color 0.15s ease,
+                color 0.15s ease;
+}
+
+.vendor-nav-link i {
+    font-size: 17px;
+    width: 20px;
+    text-align: center;
+}
+
+.vendor-nav-link:hover {
+    background-color: #343B45;
+    color: #FFFFFF;
+}
+
+.vendor-nav-link.active {
+    background-color: #192F50;
+    color: #FFFFFF;
+}
+
+/* =========================================
+   LOGOUT
+========================================= */
+
+.vendor-sidebar-footer {
+    padding: 15px 12px 22px;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.vendor-sidebar-footer form {
+    margin: 0;
+}
+
+.vendor-logout-btn {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+
+    width: 100%;
+    padding: 13px 15px;
+
+    background: transparent;
+    border: none;
+    border-radius: 7px;
+
+    color: #F3A6A6;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+
+    text-align: left;
+    cursor: pointer;
+}
+
+.vendor-logout-btn i {
+    font-size: 17px;
+    width: 20px;
+    text-align: center;
+}
+
+.vendor-logout-btn:hover {
+    background-color: rgba(220, 53, 69, 0.12);
+    color: #FFFFFF;
+}
+
+/* =========================================
+   MAIN WRAPPER
+========================================= */
+
+.vendor-main-wrapper {
+    margin-left: 250px;
+    width: calc(100% - 250px);
+    min-width: 0;
+    min-height: 100vh;
+}
+
+/* =========================================
+   TOPBAR
+========================================= */
+
+.vendor-topbar {
+    min-height: 72px;
+
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #D5DCE5;
+
+    padding: 18px 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.vendor-panel-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: #23272E;
+}
+
+.vendor-topbar-user {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #667085;
+}
+
+.vendor-topbar-user strong {
+    color: #23272E;
+    font-weight: 600;
+}
+
+/* =========================================
+   MAIN CONTENT
+========================================= */
+
+.vendor-content {
+    padding: 28px 30px;
+    min-height: calc(100vh - 72px);
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 991.98px) {
+
+    .vendor-sidebar {
+        width: 220px;
+    }
+
+    .vendor-main-wrapper {
+        margin-left: 220px;
+        width: calc(100% - 220px);
+    }
+
+    .vendor-content {
+        padding: 24px 20px;
+    }
+
+    .vendor-topbar {
+        padding: 18px 20px;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+
+    .vendor-layout {
+        display: block;
+    }
+
+    .vendor-sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .vendor-sidebar-brand {
+        padding: 18px;
+    }
+
+    .vendor-sidebar-nav {
+        padding: 12px;
+    }
+
+    .vendor-sidebar-footer {
+        padding: 12px;
+    }
+
+    .vendor-main-wrapper {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .vendor-topbar {
+        padding: 15px 18px;
+        min-height: 65px;
+    }
+
+    .vendor-panel-title {
+        font-size: 17px;
+    }
+
+    .vendor-topbar-user {
+        font-size: 12px;
+    }
+
+    .vendor-content {
+        padding: 20px 15px;
+    }
+
+}
