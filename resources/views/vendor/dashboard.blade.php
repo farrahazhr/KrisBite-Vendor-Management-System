@@ -307,7 +307,6 @@
      tabindex="-1"
      aria-hidden="true">
 
-    <!-- Tukar ke modal-xl supaya table muat -->
     <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
         <div class="modal-content">
 
@@ -424,7 +423,7 @@
 
 @endforeach
 
-<!-- Financial Chart -->
+<!-- Financial Chart (Consistent Roasted Amber Palette) -->
 <script>
     Chart.defaults.font.family = "'Inter', sans-serif";
     Chart.defaults.font.size = 13;
@@ -443,11 +442,12 @@
             datasets: [{
                 label: 'Monthly Sales (RM)',
                 data: @json($monthlyData),
-                borderColor: '#192F50',
-                backgroundColor: 'rgba(25, 47, 80, 0.10)',
+                borderColor: '#C86200',
+                backgroundColor: 'rgba(200, 98, 0, 0.10)',
                 borderWidth: 2,
-                pointBackgroundColor: '#192F50',
-                pointRadius: 3,
+                pointBackgroundColor: '#C86200',
+                pointRadius: 4,
+                pointHoverRadius: 6,
                 fill: true,
                 tension: 0.3
             }]

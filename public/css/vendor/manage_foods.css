@@ -1,11 +1,10 @@
-
 /* =========================================
    KRISBITE - VENDOR MANAGE FOODS
-   Charcoal Black & Midnight Navy
+   Charcoal & Roasted Amber (#C86200)
 ========================================= */
 
 .vendor-manage-foods {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     color: #23272E;
     padding: 8px 0 30px;
 }
@@ -16,9 +15,9 @@
 
 .vendor-manage-foods .foods-main-card {
     background-color: #FFFFFF;
-    border: 1px solid #D5DCE5;
+    border: 1px solid #E8E4DE;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.05);
+    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.04);
     overflow: hidden;
 }
 
@@ -27,22 +26,22 @@
 ========================================= */
 
 .vendor-manage-foods .foods-page-header {
-    padding: 25px 28px;
+    padding: 24px 28px;
     background-color: #FFFFFF;
-    border-bottom: 1px solid #D5DCE5;
+    border-bottom: 1px solid #E8E4DE;
 }
 
 .vendor-manage-foods .page-title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 26px;
-    font-weight: 600;
-    color: #23272E;
-    margin-bottom: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1C1A18;
+    margin-bottom: 6px;
 }
 
 .vendor-manage-foods .page-description {
     font-family: 'Inter', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     color: #667085;
     line-height: 1.6;
@@ -74,20 +73,20 @@
 ========================================= */
 
 .vendor-manage-foods .foods-section-header {
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 
 .vendor-manage-foods .foods-section-title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
     font-weight: 600;
-    color: #23272E;
-    margin-bottom: 7px;
+    color: #1C1A18;
+    margin-bottom: 6px;
 }
 
 .vendor-manage-foods .foods-section-description {
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     color: #667085;
     margin-bottom: 0;
@@ -99,10 +98,10 @@
 
 .vendor-manage-foods .form-label {
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 13px;
+    font-weight: 600;
     color: #344054;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 
 /* =========================================
@@ -116,13 +115,14 @@
     color: #23272E;
 
     background-color: #FFFFFF;
-    border: 1px solid #C9D2DE;
+    border: 1px solid #D5DCE5;
     border-radius: 6px;
 
     min-height: 42px;
     padding: 9px 12px;
 
     box-shadow: none;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 .vendor-manage-foods .foods-input::placeholder {
@@ -130,8 +130,8 @@
 }
 
 .vendor-manage-foods .foods-input:focus {
-    border-color: #34557E;
-    box-shadow: 0 0 0 3px rgba(52, 85, 126, 0.12);
+    border-color: #C86200;
+    box-shadow: 0 0 0 3px rgba(200, 98, 0, 0.15);
 }
 
 /* File Input */
@@ -141,14 +141,15 @@
 }
 
 .vendor-manage-foods input[type="file"]::file-selector-button {
-    background-color: #EDF1F6;
+    background-color: #FAF8F5;
     color: #344054;
-    border: none;
+    border: 1px solid #E8E4DE;
     border-radius: 4px;
     padding: 6px 12px;
     margin-right: 12px;
     font-family: 'Inter', sans-serif;
     font-size: 13px;
+    font-weight: 500;
     cursor: pointer;
 }
 
@@ -173,22 +174,22 @@
     white-space: nowrap;
     cursor: pointer;
 
-    transition: background-color 0.15s ease;
+    transition: all 0.15s ease;
 }
 
-/* Add Food Button */
+/* Add Food Button - Roasted Amber */
 
 .vendor-manage-foods .btn-add-food {
     width: 100%;
     min-height: 42px;
-    background-color: #192F50;
+    background-color: #C86200;
     color: #FFFFFF;
-    border: 1px solid #192F50;
+    border: 1px solid #C86200;
 }
 
 .vendor-manage-foods .btn-add-food:hover {
-    background-color: #34557E;
-    border-color: #34557E;
+    background-color: #B35500;
+    border-color: #B35500;
     color: #FFFFFF;
 }
 
@@ -198,7 +199,7 @@
     background-color: #FFFFFF;
     color: #B43C3C;
     border: 1px solid #B43C3C;
-    padding: 8px 13px;
+    padding: 7px 12px;
 }
 
 .vendor-manage-foods .btn-delete-food:hover {
@@ -212,7 +213,7 @@
 
 .vendor-manage-foods .foods-divider {
     height: 1px;
-    background-color: #D5DCE5;
+    background-color: #E8E4DE;
     margin: 30px 0;
 }
 
@@ -222,8 +223,8 @@
 
 .vendor-manage-foods .foods-table-wrapper {
     width: 100%;
-    border: 1px solid #D5DCE5;
-    border-radius: 7px;
+    border: 1px solid #E8E4DE;
+    border-radius: 8px;
 }
 
 .vendor-manage-foods .foods-table {
@@ -235,25 +236,25 @@
 }
 
 .vendor-manage-foods .foods-table thead th {
-    background-color: #F2F5F9;
+    background-color: #FAF8F5;
     color: #344054;
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
-    padding: 15px 17px;
-    border-bottom: 1px solid #D5DCE5;
+    padding: 14px 16px;
+    border-bottom: 1px solid #E8E4DE;
     white-space: nowrap;
 }
 
 .vendor-manage-foods .foods-table tbody td {
-    padding: 14px 17px;
+    padding: 14px 16px;
     color: #344054;
-    border-color: #E8ECF1;
+    border-color: #F0EDE8;
     vertical-align: middle;
 }
 
 .vendor-manage-foods .foods-table tbody tr:hover {
-    background-color: #F8FAFC;
+    background-color: #FDFCFB;
 }
 
 /* =========================================
@@ -261,11 +262,11 @@
 ========================================= */
 
 .vendor-manage-foods .food-thumbnail {
-    width: 60px;
-    height: 60px;
+    width: 56px;
+    height: 56px;
     object-fit: cover;
     border-radius: 6px;
-    border: 1px solid #D5DCE5;
+    border: 1px solid #E8E4DE;
     display: block;
 }
 
@@ -275,12 +276,12 @@
 
 .vendor-manage-foods .food-name {
     font-weight: 500;
-    color: #23272E !important;
+    color: #1C1A18 !important;
 }
 
 .vendor-manage-foods .food-price {
-    font-weight: 500;
-    color: #344054;
+    font-weight: 600;
+    color: #C86200;
     white-space: nowrap;
 }
 
@@ -292,7 +293,7 @@
     padding: 45px 20px !important;
     text-align: center;
     color: #667085 !important;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
 }
 
@@ -311,7 +312,7 @@
     }
 
     .vendor-manage-foods .page-title {
-        font-size: 23px;
+        font-size: 22px;
     }
 
     .vendor-manage-foods .foods-page-content {
@@ -320,12 +321,12 @@
 
     .vendor-manage-foods .foods-table thead th,
     .vendor-manage-foods .foods-table tbody td {
-        padding: 13px;
+        padding: 12px;
     }
 
     .vendor-manage-foods .food-thumbnail {
-        width: 52px;
-        height: 52px;
+        width: 48px;
+        height: 48px;
     }
 
 }

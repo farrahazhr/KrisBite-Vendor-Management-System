@@ -1,16 +1,15 @@
-
 /* =========================================
    KRISBITE - ADMIN DASHBOARD
-   Charcoal Black & Midnight Navy
+   Theme: Consistent Roasted Amber & Charcoal
+   Typography: Inter
 ========================================= */
 
 .admin-dashboard {
-    --charcoal: #23272E;
-    --midnight-navy: #192F50;
-    --slate-blue: #34557E;
-    --page-background: #F1F3F6;
-    --card-border: #DCE2EA;
-    --text-muted: #667085;
+    --charcoal: #111827;
+    --orange-primary: #C86200;
+    --orange-hover: #B35500;
+    --card-border: #E5E7EB;
+    --text-muted: #6B7280;
 
     font-family: 'Inter', sans-serif;
     color: var(--charcoal);
@@ -27,18 +26,19 @@
 }
 
 .admin-dashboard .dashboard-title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 26px;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--charcoal);
-    margin-bottom: 8px;
+    margin-bottom: 6px;
+    letter-spacing: -0.02em;
 }
 
 .admin-dashboard .dashboard-description {
-    font-size: 15px;
+    font-size: 14px;
     color: var(--text-muted);
     margin-bottom: 0;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 /* =========================================
@@ -46,50 +46,61 @@
 ========================================= */
 
 .admin-dashboard .stat-card {
-    border-radius: 10px;
+    border-radius: 12px;
     border: 1px solid var(--card-border);
-    box-shadow: 0 2px 7px rgba(35, 39, 46, 0.05);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
     height: 100%;
 }
 
 .admin-dashboard .stat-card .card-body {
-    padding: 24px;
+    padding: 22px 24px;
 }
 
+/* Active Vendors */
 .admin-dashboard .stat-card-blue {
-    background-color: #E8EDF5;
-    border-color: #CCD7E6;
+    background-color: #FFF7ED;
+    border-color: #FFEDD5;
 }
 
+.admin-dashboard .stat-card-blue .stat-value {
+    color: var(--orange-primary);
+}
+
+/* Pending Applications */
 .admin-dashboard .stat-card-amber {
-    background-color: #FFF2DC;
-    border-color: #ECD9B7;
-}
-
-.admin-dashboard .stat-card-slate {
-    background-color: #E2E9F1;
-    border-color: #C9D4E2;
-}
-
-.admin-dashboard .stat-label {
-    font-size: 15px;
-    font-weight: 500;
-    color: #4D5A6B;
-    margin-bottom: 14px;
-    line-height: 1.5;
-}
-
-.admin-dashboard .stat-value {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 29px;
-    font-weight: 600;
-    color: var(--midnight-navy);
-    margin-bottom: 0;
-    overflow-wrap: anywhere;
+    background-color: #FEF3C7;
+    border-color: #FDE68A;
 }
 
 .admin-dashboard .stat-card-amber .stat-value {
-    color: #85601E;
+    color: #B45309;
+}
+
+/* Today's Commission */
+.admin-dashboard .stat-card-slate {
+    background-color: #F3F4F6;
+    border-color: #E5E7EB;
+}
+
+.admin-dashboard .stat-card-slate .stat-value {
+    color: var(--charcoal);
+}
+
+.admin-dashboard .stat-label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #4B5563;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.admin-dashboard .stat-value {
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 0;
+    letter-spacing: -0.02em;
+    overflow-wrap: anywhere;
 }
 
 /* =========================================
@@ -98,29 +109,29 @@
 
 .admin-dashboard .dashboard-card {
     background-color: #FFFFFF;
-    border: 1px solid #D5DCE5;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.05);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
     height: 100%;
     overflow: hidden;
 }
 
 .admin-dashboard .dashboard-card .card-header {
-    background-color: #EDF1F6;
-    border-bottom: 1px solid #D5DCE5;
-    padding: 18px 22px;
+    background-color: #F9FAFB;
+    border-bottom: 1px solid var(--card-border);
+    padding: 16px 22px;
 }
 
 .admin-dashboard .dashboard-card .card-header h5 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
     font-weight: 600;
     color: var(--charcoal);
     margin: 0;
 }
 
 .admin-dashboard .dashboard-card .card-body {
-    padding: 24px;
+    padding: 22px;
 }
 
 .admin-dashboard .chart-container {
@@ -140,33 +151,33 @@
 
 .admin-dashboard .summary-card {
     background-color: #FFFFFF;
-    border: 1px solid #D5DCE5;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.05);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
     overflow: hidden;
 }
 
 .admin-dashboard .summary-card .card-header {
-    background-color: #EDF1F6;
-    border-bottom: 1px solid #D5DCE5;
-    padding: 18px 22px;
+    background-color: #F9FAFB;
+    border-bottom: 1px solid var(--card-border);
+    padding: 16px 22px;
 }
 
 .admin-dashboard .summary-card .card-header h5 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
     font-weight: 600;
     color: var(--charcoal);
     margin: 0;
 }
 
 .admin-dashboard .summary-date {
-    font-size: 14px;
-    color: #667085;
+    font-size: 13px;
+    color: var(--text-muted);
 }
 
 .admin-dashboard .summary-card .card-body {
-    padding: 25px 15px;
+    padding: 24px 15px;
 }
 
 .admin-dashboard .summary-item {
@@ -174,24 +185,25 @@
 }
 
 .admin-dashboard .summary-label {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
-    color: #667085;
-    margin-bottom: 12px;
-    line-height: 1.5;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+    line-height: 1.4;
 }
 
 .admin-dashboard .summary-value {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--charcoal);
     margin-bottom: 0;
     overflow-wrap: anywhere;
+    letter-spacing: -0.02em;
 }
 
 .admin-dashboard .summary-value-navy {
-    color: var(--midnight-navy);
+    color: var(--orange-primary);
 }
 
 /* =========================================
@@ -204,7 +216,7 @@
     }
 
     .admin-dashboard .summary-item:nth-child(-n+2) {
-        border-bottom: 1px solid #E1E5EB;
+        border-bottom: 1px solid #E5E7EB;
     }
 }
 
@@ -214,17 +226,17 @@
     }
 
     .admin-dashboard .dashboard-title {
-        font-size: 23px;
+        font-size: 22px;
     }
 
     .admin-dashboard .stat-value {
-        font-size: 26px;
+        font-size: 24px;
     }
 
     .admin-dashboard .summary-item {
         border-right: none !important;
-        border-bottom: 1px solid #E1E5EB;
-        padding: 20px 12px;
+        border-bottom: 1px solid #E5E7EB;
+        padding: 18px 12px;
     }
 
     .admin-dashboard .summary-item:last-child {
@@ -232,10 +244,10 @@
     }
 
     .admin-dashboard .chart-container {
-        height: 270px;
+        height: 260px;
     }
 
     .admin-dashboard .dashboard-card .card-body {
-        padding: 18px;
+        padding: 16px;
     }
 }

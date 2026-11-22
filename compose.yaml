@@ -1,0 +1,30 @@
+
+services:
+  db:
+    image: mariadb:10.4.32
+    container_name: krisbite-mariadb
+    restart: unless-stopped
+    environment:
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+      MARIADB_DATABASE: ${DB_DATABASE}
+      MARIADB_USER: ${DB_USERNAME}
+      MARIADB_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "3307:3306"
+    volumes:
+      - krisbite_db_data:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin:5.2.2-apache
+    container_name: krisbite-phpmyadmin
+    restart: unless-stopped
+    environment:
+      PMA_HOST: db
+      PMA_PORT: 3306
+    ports:
+      - "8081:80"
+    depends_on:
+      - db
+
+volumes:
+  krisbite_db_data:

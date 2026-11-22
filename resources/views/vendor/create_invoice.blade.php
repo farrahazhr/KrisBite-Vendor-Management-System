@@ -1,4 +1,3 @@
-
 @extends('layouts.vendor')
 
 @push('styles')
@@ -107,7 +106,7 @@
                                             required
                                             readonly
                                             oninput="calcTotal(this)"
-                                            style="width: 120px; background-color: #e9ecef; font-weight: bold;">
+                                            style="width: 120px; background-color: #F8F9FA; font-weight: 600;">
                                     </td>
 
                                     <td>
@@ -115,7 +114,7 @@
                                                class="form-control total-input"
                                                readonly
                                                value="0.00"
-                                               style="width: 140px; background-color: #e9ecef;">
+                                               style="width: 140px; background-color: #F8F9FA;">
                                     </td>
 
                                     <td>
@@ -243,7 +242,7 @@
      tabindex="-1"
      aria-hidden="true">
 
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
 
         <div class="modal-content">
 
@@ -358,9 +357,9 @@ function addRow() {
                 </select>
             </td>
             <td><input type="number" name="items[${rowIndex}][declared_qty]" class="form-control qty-input" min="1" required oninput="calcTotal(this)" style="width: 100px;"></td>
-            <td><input type="number" step="0.01" name="items[${rowIndex}][price]" class="form-control price-input" min="0" required readonly oninput="calcTotal(this)" style="width: 120px; background-color: #e9ecef; font-weight: bold;"></td>
-            <td><input type="text" class="form-control total-input" readonly value="0.00" style="width: 140px; background-color: #e9ecef;"></td>
-            <td><button type="button" class="btn btn-sm btn-danger" onclick="removeRow(this)">X</button></td>
+            <td><input type="number" step="0.01" name="items[${rowIndex}][price]" class="form-control price-input" min="0" required readonly oninput="calcTotal(this)" style="width: 120px; background-color: #F8F9FA; font-weight: 600;"></td>
+            <td><input type="text" class="form-control total-input" readonly value="0.00" style="width: 140px; background-color: #F8F9FA;"></td>
+            <td><button type="button" class="btn btn-sm btn-danger invoice-remove-btn" onclick="removeRow(this)">X</button></td>
         </tr>`;
 
     tableBody.insertAdjacentHTML('beforeend', row);

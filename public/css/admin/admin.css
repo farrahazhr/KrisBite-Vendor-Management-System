@@ -1,14 +1,16 @@
-
 /* =========================================
    KRISBITE - ADMIN LAYOUT
+   Theme: Consistent Roasted Amber & Charcoal
+   Typography: Inter (Consistent with Auth)
 ========================================= */
 
 .admin-layout {
     margin: 0;
-    background-color: #F1F3F6;
-    color: #23272E;
+    background-color: #F8F9FA;
+    color: #111827;
     font-family: 'Inter', sans-serif;
     font-size: 15px;
+    font-weight: 400;
 }
 
 .admin-wrapper {
@@ -31,7 +33,7 @@
     display: flex;
     flex-direction: column;
 
-    background-color: #23272E;
+    background-color: #1C1A18;
     color: #FFFFFF;
     padding: 24px 15px;
 }
@@ -42,23 +44,24 @@
 }
 
 .sidebar-brand h4 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 22px;
-    font-weight: 800;
-    letter-spacing: 1px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
     color: #FFFFFF;
     margin-bottom: 5px;
 }
 
 .sidebar-brand span {
+    font-family: 'Inter', sans-serif;
     font-size: 11px;
     letter-spacing: 1.5px;
     font-weight: 500;
-    color: #AEB7C4;
+    color: #9CA3AF;
 }
 
 .sidebar-divider {
-    border-top: 1px solid rgba(255, 255, 255, 0.13);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     margin-bottom: 22px;
 }
 
@@ -73,15 +76,16 @@
     align-items: center;
     gap: 13px;
 
-    padding: 13px 15px;
-    border-radius: 7px;
+    padding: 12px 15px;
+    border-radius: 8px;
 
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 500;
-    color: #D4D9E1;
+    color: #D1D5DB;
 
     text-decoration: none;
-    transition: background-color 0.15s ease;
+    transition: background-color 0.15s ease, color 0.15s ease;
 }
 
 .sidebar-navigation .nav-link i {
@@ -91,14 +95,16 @@
 }
 
 .sidebar-navigation .nav-link:hover {
-    background-color: #343B46;
+    background-color: rgba(255, 255, 255, 0.08);
     color: #FFFFFF;
 }
 
+/* Active Navigation Item (Theme: Roasted Amber) */
 .sidebar-navigation .nav-link.active {
-    background-color: #192F50;
+    background-color: #C86200;
     color: #FFFFFF;
     font-weight: 600;
+    box-shadow: 0 2px 8px rgba(200, 98, 0, 0.35);
 }
 
 /* Logout */
@@ -106,7 +112,7 @@
 .sidebar-footer {
     margin-top: auto;
     padding-top: 20px;
-    border-top: 1px solid rgba(255, 255, 255, 0.13);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .sidebar-footer form {
@@ -119,18 +125,19 @@
     gap: 13px;
 
     width: 100%;
-    padding: 13px 15px;
+    padding: 12px 15px;
 
     background: transparent;
     border: none;
-    border-radius: 7px;
+    border-radius: 8px;
 
-    color: #E4E8EE;
+    color: #E5E7EB;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 500;
     text-align: left;
     cursor: pointer;
+    transition: background-color 0.15s ease, color 0.15s ease;
 }
 
 .sidebar-logout i {
@@ -140,7 +147,7 @@
 }
 
 .sidebar-logout:hover {
-    background-color: #343B46;
+    background-color: rgba(255, 255, 255, 0.08);
     color: #FFFFFF;
 }
 
@@ -169,14 +176,14 @@
     padding: 15px 28px;
 
     background-color: #FFFFFF;
-    border-bottom: 1px solid #DCE2EA;
+    border-bottom: 1px solid #E5E7EB;
 }
 
 .admin-topbar-title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 19px;
     font-weight: 600;
-    color: #23272E;
+    color: #111827;
 }
 
 .admin-user {
@@ -184,13 +191,14 @@
     align-items: center;
     gap: 5px;
 
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
-    color: #667085;
+    color: #6B7280;
 }
 
 .admin-user strong {
     font-weight: 600;
-    color: #192F50;
+    color: #C86200;
 }
 
 /* =========================================
@@ -198,12 +206,36 @@
 ========================================= */
 
 .admin-content {
-    padding: 18px 28px 35px;
+    padding: 24px 28px 35px;
     min-height: calc(100vh - 70px);
 }
 
 /* =========================================
-   RESPONSIVE
+   GLOBAL BOOTSTRAP OVERRIDES FOR ADMIN
+========================================= */
+
+.admin-layout .btn-primary {
+    background-color: #C86200;
+    border-color: #C86200;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.admin-layout .btn-primary:hover,
+.admin-layout .btn-primary:focus {
+    background-color: #B35500;
+    border-color: #B35500;
+    color: #FFFFFF;
+}
+
+.admin-layout .form-control:focus,
+.admin-layout .form-select:focus {
+    border-color: #C86200;
+    box-shadow: 0 0 0 3px rgba(200, 98, 0, 0.12);
+}
+
+/* =========================================
+   RESPONSIVE DESIGN
 ========================================= */
 
 @media (max-width: 991.98px) {
@@ -271,35 +303,4 @@
         flex-wrap: wrap;
         justify-content: flex-end;
     }
-}
-
-/* Admin Panel Title */
-.admin-topbar-title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 19px;
-    font-weight: 600;
-}
-
-/* KrisBite Sidebar Branding */
-.sidebar-brand h4 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 22px;
-    font-weight: 600;
-}
-
-/* Sidebar Navigation */
-.sidebar-navigation .nav-link {
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-}
-
-/* Active Navigation */
-.sidebar-navigation .nav-link.active {
-    font-weight: 600;
-}
-
-/* Main Content */
-.admin-layout {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
 }

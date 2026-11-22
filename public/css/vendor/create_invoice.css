@@ -1,10 +1,10 @@
-
 /* =========================================
    KRISBITE VENDOR - CREATE INVOICE
+   Charcoal & Roasted Amber (#C86200)
 ========================================= */
 
 .vendor-invoice-page {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     color: #23272E;
     padding: 8px 0 30px;
 }
@@ -13,29 +13,29 @@
 
 .vendor-invoice-page .invoice-main-card {
     background: #FFFFFF;
-    border: 1px solid #D5DCE5;
+    border: 1px solid #E8E4DE;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.05);
+    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.04);
     overflow: hidden;
 }
 
 /* PAGE HEADER */
 
 .vendor-invoice-page .invoice-page-header {
-    padding: 25px 28px;
-    border-bottom: 1px solid #D5DCE5;
+    padding: 24px 28px;
+    border-bottom: 1px solid #E8E4DE;
 }
 
 .vendor-invoice-page .page-title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 26px;
-    font-weight: 600;
-    color: #23272E;
-    margin-bottom: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1C1A18;
+    margin-bottom: 6px;
 }
 
 .vendor-invoice-page .page-description {
-    font-size: 15px;
+    font-size: 14px;
     color: #667085;
     line-height: 1.6;
     margin: 0;
@@ -48,46 +48,47 @@
 }
 
 .vendor-invoice-page .invoice-section-header {
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 
 .vendor-invoice-page .invoice-section-title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
     font-weight: 600;
-    color: #23272E;
+    color: #1C1A18;
     margin: 0;
 }
 
 .vendor-invoice-page .invoice-section-divider {
     height: 1px;
-    background: #D5DCE5;
+    background: #E8E4DE;
     margin: 30px 0;
 }
 
 /* INPUTS */
 
 .vendor-invoice-page .form-label {
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 13px;
+    font-weight: 600;
     color: #344054;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 
 .vendor-invoice-page .form-control {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     color: #23272E;
-    border: 1px solid #C9D2DE;
+    border: 1px solid #D5DCE5;
     border-radius: 6px;
     min-height: 42px;
     padding: 9px 11px;
     box-shadow: none;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 .vendor-invoice-page .form-control:focus {
-    border-color: #34557E;
-    box-shadow: 0 0 0 3px rgba(52, 85, 126, 0.12);
+    border-color: #C86200;
+    box-shadow: 0 0 0 3px rgba(200, 98, 0, 0.15);
 }
 
 .vendor-invoice-page .food-select {
@@ -97,8 +98,8 @@
 /* TABLES */
 
 .vendor-invoice-page .invoice-table-wrapper {
-    border: 1px solid #D5DCE5;
-    border-radius: 7px;
+    border: 1px solid #E8E4DE;
+    border-radius: 8px;
 }
 
 .vendor-invoice-page .invoice-table {
@@ -109,24 +110,24 @@
 }
 
 .vendor-invoice-page .invoice-table thead th {
-    background: #F2F5F9;
+    background: #FAF8F5;
     color: #344054;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
-    padding: 15px 16px;
-    border-bottom: 1px solid #D5DCE5;
+    padding: 14px 16px;
+    border-bottom: 1px solid #E8E4DE;
     white-space: nowrap;
 }
 
 .vendor-invoice-page .invoice-table tbody td {
     padding: 13px 16px;
     color: #344054;
-    border-color: #E8ECF1;
+    border-color: #F0EDE8;
     vertical-align: middle;
 }
 
 .vendor-invoice-page .invoice-table tbody tr:hover {
-    background: #F8FAFC;
+    background: #FDFCFB;
 }
 
 /* BUTTONS */
@@ -142,35 +143,37 @@
 
 .vendor-invoice-page .invoice-add-btn {
     background: #FFFFFF;
-    color: #192F50;
-    border: 1px solid #192F50;
+    color: #C86200;
+    border: 1px solid #C86200;
     font-size: 13px;
     font-weight: 500;
-    padding: 10px 15px;
+    padding: 9px 15px;
     border-radius: 6px;
+    transition: all 0.15s ease;
 }
 
 .vendor-invoice-page .invoice-add-btn:hover {
-    background: #EDF1F6;
-    color: #192F50;
+    background: #FFF5EB;
+    color: #B35500;
+    border-color: #B35500;
 }
 
 .vendor-invoice-page .invoice-submit-btn {
-    background: #192F50;
+    background: #C86200;
     color: #FFFFFF;
-    border: 1px solid #192F50;
+    border: 1px solid #C86200;
     font-size: 13px;
     font-weight: 500;
-    padding: 10px 17px;
+    padding: 9px 18px;
     border-radius: 6px;
+    transition: all 0.15s ease;
 }
 
 .vendor-invoice-page .invoice-submit-btn:hover {
-    background: #34557E;
-    border-color: #34557E;
+    background: #B35500;
+    border-color: #B35500;
     color: #FFFFFF;
 }
-
 
 /* REMOVE ITEM - SOLID RED */
 
@@ -181,7 +184,8 @@
     border: 1px solid #B43C3C;
     border-radius: 6px;
     font-size: 13px;
-    padding: 8px 12px;
+    padding: 7px 12px;
+    transition: all 0.15s ease;
 }
 
 .vendor-invoice-page .invoice-remove-btn:hover,
@@ -191,21 +195,22 @@
     color: #FFFFFF;
 }
 
-/* VIEW INVOICE - SOLID MIDNIGHT NAVY */
+/* VIEW INVOICE - ROASTED AMBER */
 
 .vendor-invoice-page .invoice-view-btn {
-    background-color: #192F50;
+    background-color: #C86200;
     color: #FFFFFF;
-    border: 1px solid #192F50;
+    border: 1px solid #C86200;
     border-radius: 6px;
     font-size: 13px;
     font-weight: 500;
-    padding: 8px 15px;
+    padding: 7px 15px;
+    transition: all 0.15s ease;
 }
 
 .vendor-invoice-page .invoice-view-btn:hover {
-    background-color: #34557E;
-    border-color: #34557E;
+    background-color: #B35500;
+    border-color: #B35500;
     color: #FFFFFF;
 }
 
@@ -222,7 +227,7 @@
 
 .vendor-invoice-page .text-center.text-muted h5 {
     font-family: 'Inter', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     color: #667085;
 }
@@ -234,22 +239,22 @@
 }
 
 .vendor-invoice-modal .modal-content {
-    border: 1px solid #D5DCE5;
+    border: 1px solid #E8E4DE;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .vendor-invoice-modal .modal-header {
-    background: #EDF1F6;
-    border-bottom: 1px solid #D5DCE5;
-    padding: 20px 24px;
+    background: #FAF8F5;
+    border-bottom: 1px solid #E8E4DE;
+    padding: 18px 24px;
 }
 
 .vendor-invoice-modal .modal-title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 19px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
     font-weight: 600;
-    color: #23272E;
+    color: #1C1A18;
 }
 
 .vendor-invoice-modal .modal-body {
@@ -262,38 +267,38 @@
 }
 
 .vendor-invoice-modal .invoice-modal-table-wrapper {
-    border: 1px solid #D5DCE5;
-    border-radius: 7px;
+    border: 1px solid #E8E4DE;
+    border-radius: 8px;
 }
 
 .vendor-invoice-modal .invoice-modal-table {
     width: 100%;
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 13px;
     vertical-align: middle;
 }
 
 .vendor-invoice-modal .invoice-modal-table thead th {
-    background: #F2F5F9;
+    background: #FAF8F5;
     color: #344054;
     font-weight: 600;
-    padding: 13px;
+    padding: 12px;
 }
 
 .vendor-invoice-modal .invoice-modal-table tbody td {
-    padding: 13px;
+    padding: 12px;
     color: #344054;
-    border-color: #E8ECF1;
+    border-color: #F0EDE8;
 }
 
 .vendor-invoice-modal .invoice-modal-table tfoot td {
-    background: #EDF1F6;
-    padding: 14px 13px;
+    background: #FAF8F5;
+    padding: 13px;
 }
 
 .vendor-invoice-modal .modal-footer {
     padding: 16px 24px;
-    border-top: 1px solid #D5DCE5;
+    border-top: 1px solid #E8E4DE;
 }
 
 .vendor-invoice-modal .invoice-close-btn {
@@ -301,12 +306,12 @@
     color: #344054;
     border: 1px solid #C9D2DE;
     font-size: 13px;
-    padding: 9px 16px;
+    padding: 8px 16px;
     border-radius: 6px;
 }
 
 .vendor-invoice-modal .invoice-close-btn:hover {
-    background: #EDF1F6;
+    background: #F0EDE8;
 }
 
 /* RESPONSIVE */
@@ -318,7 +323,7 @@
     }
 
     .vendor-invoice-page .page-title {
-        font-size: 23px;
+        font-size: 22px;
     }
 
     .vendor-invoice-page .invoice-page-content {
@@ -338,6 +343,7 @@
         padding: 16px;
     }
 }
+
 /* INVOICE INPUT PLACEHOLDERS */
 
 .vendor-invoice-page .qty-input::placeholder,

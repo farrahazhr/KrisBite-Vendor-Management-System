@@ -1,4 +1,3 @@
-
 @extends('layouts.vendor')
 
 @push('styles')

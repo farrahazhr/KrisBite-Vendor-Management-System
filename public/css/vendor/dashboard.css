@@ -1,11 +1,10 @@
-
 /* =========================================
    KRISBITE - VENDOR DASHBOARD
-   Charcoal Black & Midnight Navy
+   Charcoal & Roasted Amber (#C86200)
 ========================================= */
 
 .vendor-dashboard {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     color: #23272E;
     padding: 8px 0 30px;
 }
@@ -21,15 +20,15 @@
 }
 
 .vendor-dashboard .dashboard-title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 26px;
-    font-weight: 600;
-    color: #23272E;
-    margin-bottom: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1C1A18;
+    margin-bottom: 6px;
 }
 
 .vendor-dashboard .dashboard-description {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     color: #667085;
     margin: 0;
@@ -40,11 +39,11 @@
 }
 
 .vendor-dashboard .dashboard-business h5 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
     font-weight: 600;
-    color: #192F50;
-    margin-bottom: 6px;
+    color: #C86200;
+    margin-bottom: 4px;
 }
 
 .vendor-dashboard .dashboard-business span {
@@ -52,38 +51,35 @@
     color: #667085;
 }
 
-/* STATISTIC CARDS */
-
-
 /* =========================================
-   STATISTIC CARDS - COLORED BACKGROUND
+   STATISTIC CARDS
 ========================================= */
 
 .vendor-dashboard .vendor-stat-card {
     border: none;
-    border-radius: 9px;
+    border-radius: 10px;
     padding: 22px;
     min-height: 130px;
     height: 100%;
     box-shadow: 0 2px 8px rgba(35, 39, 46, 0.08);
 }
 
-/* Today Invoices - Midnight Navy */
+/* Today Invoices - Roasted Amber */
 .vendor-dashboard .stat-invoices {
-    background-color: #192F50;
+    background-color: #C86200;
 }
 
-/* Today's Sales - Green */
+/* Today's Sales - Parsley Green */
 .vendor-dashboard .stat-sales {
     background-color: #267345;
 }
 
-/* Total Commission - Muted Red */
+/* Total Commission - Muted Chili Red */
 .vendor-dashboard .stat-commission {
     background-color: #A74B45;
 }
 
-/* Pending Settlements - Amber */
+/* Pending Settlements - Warm Ochre */
 .vendor-dashboard .stat-pending {
     background-color: #C18A30;
 }
@@ -91,19 +87,19 @@
 /* Statistic Labels */
 .vendor-dashboard .stat-label {
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.85);
-    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 14px;
 }
 
 /* Statistic Values */
 .vendor-dashboard .stat-value {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 28px;
-    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
     color: #FFFFFF;
-    line-height: 1.25;
+    line-height: 1.2;
     overflow-wrap: anywhere;
 }
 
@@ -111,23 +107,23 @@
 
 .vendor-dashboard .vendor-dashboard-card {
     background: #FFFFFF;
-    border: 1px solid #D5DCE5;
+    border: 1px solid #E8E4DE;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.05);
+    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.04);
 }
 
 .vendor-dashboard .dashboard-card-header {
-    background: #EDF1F6;
-    border-bottom: 1px solid #D5DCE5;
-    padding: 19px 22px;
+    background: #FAF8F5;
+    border-bottom: 1px solid #E8E4DE;
+    padding: 18px 22px;
 }
 
 .vendor-dashboard .dashboard-card-header h5 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
     font-weight: 600;
-    color: #23272E;
+    color: #1C1A18;
     margin: 0;
 }
 
@@ -146,11 +142,11 @@
 }
 
 .vendor-dashboard .invoice-heading {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 15px;
     font-weight: 600;
-    color: #192F50;
-    margin-bottom: 13px;
+    color: #C86200;
+    margin-bottom: 12px;
 }
 
 .vendor-dashboard .invoice-heading span {
@@ -163,8 +159,8 @@
 /* TABLES */
 
 .vendor-dashboard .dashboard-table-wrapper {
-    border: 1px solid #D5DCE5;
-    border-radius: 7px;
+    border: 1px solid #E8E4DE;
+    border-radius: 8px;
 }
 
 .vendor-dashboard .dashboard-table {
@@ -175,23 +171,23 @@
 }
 
 .vendor-dashboard .dashboard-table thead th {
-    background: #F2F5F9;
+    background: #FAF8F5;
     color: #344054;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     padding: 13px;
-    border-bottom: 1px solid #D5DCE5;
+    border-bottom: 1px solid #E8E4DE;
     white-space: nowrap;
 }
 
 .vendor-dashboard .dashboard-table tbody td {
-    padding: 14px 13px;
+    padding: 13px;
     color: #344054;
-    border-color: #E8ECF1;
+    border-color: #F0EDE8;
 }
 
 .vendor-dashboard .dashboard-table tbody tr:hover {
-    background: #F8FAFC;
+    background: #FDFCFB;
 }
 
 /* STATUS BADGES */
@@ -214,8 +210,8 @@
 
 .vendor-dashboard .status-verified,
 .vendor-receipt-modal .status-verified {
-    background: #E5ECF5;
-    color: #34557E;
+    background: #E8F1FC;
+    color: #1A56A0;
 }
 
 .vendor-dashboard .status-settled,
@@ -227,20 +223,20 @@
 /* FINANCIAL SUMMARY */
 
 .vendor-dashboard .financial-summary-item {
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 
 .vendor-dashboard .financial-summary-item span {
     display: block;
     font-size: 13px;
     color: #667085;
-    margin-bottom: 7px;
+    margin-bottom: 5px;
 }
 
 .vendor-dashboard .financial-summary-item h4 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 22px;
-    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
     margin: 0;
 }
 
@@ -253,24 +249,24 @@
 }
 
 .vendor-dashboard .financial-payout {
-    color: #192F50;
+    color: #C86200;
 }
 
 .vendor-dashboard .financial-chart-container {
     height: 230px;
     margin-top: 24px;
     padding-top: 20px;
-    border-top: 1px solid #E8ECF1;
+    border-top: 1px solid #E8E4DE;
 }
 
 /* REVENUE */
 
 .vendor-dashboard .revenue-section-title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
     font-weight: 600;
-    color: #23272E;
-    margin-bottom: 16px;
+    color: #1C1A18;
+    margin-bottom: 14px;
 }
 
 .vendor-dashboard .table-empty {
@@ -288,7 +284,7 @@
 
 .vendor-dashboard .dashboard-empty-state p {
     color: #667085;
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 16px;
 }
 
@@ -300,7 +296,7 @@
     align-items: center;
     justify-content: center;
     gap: 7px;
-    padding: 8px 13px;
+    padding: 8px 14px;
     border-radius: 6px;
     font-family: 'Inter', sans-serif;
     font-size: 13px;
@@ -308,30 +304,32 @@
     text-decoration: none;
     white-space: nowrap;
     cursor: pointer;
-    transition: background-color 0.15s ease;
+    transition: all 0.15s ease;
 }
 
 .vendor-dashboard .btn-primary-navy,
 .vendor-receipt-modal .btn-primary-navy {
-    background: #192F50;
-    border: 1px solid #192F50;
+    background: #C86200;
+    border: 1px solid #C86200;
     color: #FFFFFF;
 }
 
 .vendor-dashboard .btn-primary-navy:hover,
 .vendor-receipt-modal .btn-primary-navy:hover {
-    background: #34557E;
+    background: #B35500;
+    border-color: #B35500;
     color: #FFFFFF;
 }
 
 .vendor-dashboard .btn-outline-navy {
     background: #FFFFFF;
-    border: 1px solid #192F50;
-    color: #192F50;
+    border: 1px solid #C86200;
+    color: #C86200;
 }
 
 .vendor-dashboard .btn-outline-navy:hover {
-    background: #192F50;
+    background: #C86200;
+    border-color: #C86200;
     color: #FFFFFF;
 }
 
@@ -342,22 +340,22 @@
 }
 
 .vendor-receipt-modal .modal-content {
-    border: 1px solid #D5DCE5;
+    border: 1px solid #E8E4DE;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .vendor-receipt-modal .modal-header {
-    background: #EDF1F6;
-    border-bottom: 1px solid #D5DCE5;
-    padding: 20px 24px;
+    background: #FAF8F5;
+    border-bottom: 1px solid #E8E4DE;
+    padding: 18px 24px;
 }
 
 .vendor-receipt-modal .modal-title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 19px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
     font-weight: 600;
-    color: #23272E;
+    color: #1C1A18;
 }
 
 .vendor-receipt-modal .modal-body {
@@ -379,34 +377,34 @@
 }
 
 .vendor-receipt-modal .receipt-table-wrapper {
-    border: 1px solid #D5DCE5;
-    border-radius: 7px;
+    border: 1px solid #E8E4DE;
+    border-radius: 8px;
 }
 
 .vendor-receipt-modal .receipt-table {
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 13px;
     vertical-align: middle;
 }
 
 .vendor-receipt-modal .receipt-table thead th {
-    background: #F2F5F9;
+    background: #FAF8F5;
     color: #344054;
     font-weight: 600;
-    padding: 13px;
+    padding: 12px;
     white-space: nowrap;
 }
 
 .vendor-receipt-modal .receipt-table tbody td {
     color: #344054;
-    padding: 13px;
-    border-color: #E8ECF1;
+    padding: 12px;
+    border-color: #F0EDE8;
 }
 
 .vendor-receipt-modal .receipt-financial-summary {
     margin-top: 20px;
     padding-top: 15px;
-    border-top: 1px solid #D5DCE5;
+    border-top: 1px solid #E8E4DE;
 }
 
 .vendor-receipt-modal .receipt-financial-summary > div {
@@ -424,19 +422,19 @@
 
 .vendor-receipt-modal .receipt-payout {
     padding-top: 12px;
-    border-top: 1px solid #D5DCE5;
+    border-top: 1px solid #E8E4DE;
 }
 
 .vendor-receipt-modal .receipt-payout strong {
     color: #267345;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 19px;
-    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .vendor-receipt-modal .modal-footer {
     padding: 16px 24px;
-    border-top: 1px solid #D5DCE5;
+    border-top: 1px solid #E8E4DE;
 }
 
 .vendor-receipt-modal .btn-close-receipt {
@@ -446,7 +444,7 @@
 }
 
 .vendor-receipt-modal .btn-close-receipt:hover {
-    background: #EDF1F6;
+    background: #F0EDE8;
 }
 
 /* RESPONSIVE */
@@ -458,7 +456,7 @@
     }
 
     .vendor-dashboard .dashboard-title {
-        font-size: 23px;
+        font-size: 22px;
     }
 
     .vendor-dashboard .dashboard-business {
@@ -466,15 +464,15 @@
     }
 
     .vendor-dashboard .dashboard-card-body {
-        padding: 17px;
+        padding: 16px;
     }
 
     .vendor-dashboard .dashboard-card-header {
-        padding: 17px;
+        padding: 16px;
     }
 
     .vendor-dashboard .stat-value {
-        font-size: 25px;
+        font-size: 24px;
     }
 
     .vendor-receipt-modal .modal-body {

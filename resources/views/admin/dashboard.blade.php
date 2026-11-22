@@ -1,4 +1,3 @@
-
 @extends('layouts.admin')
 
 @push('styles')
@@ -155,12 +154,12 @@
 
 <!-- Dashboard Charts -->
 <script>
-    // Chart Font Settings
+    // Chart Font Settings (Consistent with Inter)
     Chart.defaults.font.family = "'Inter', sans-serif";
     Chart.defaults.font.size = 13;
     Chart.defaults.color = '#667085';
 
-    // Monthly Commission Bar Chart
+    // Monthly Commission Bar Chart (Theme: Roasted Amber #C86200)
     const ctx1 = document.getElementById('commissionChart').getContext('2d');
 
     new Chart(ctx1, {
@@ -174,10 +173,10 @@
             datasets: [{
                 label: 'Commission (RM)',
                 data: @json($monthlyData),
-                backgroundColor: 'rgba(25, 47, 80, 0.75)',
-                borderColor: '#192F50',
+                backgroundColor: 'rgba(200, 98, 0, 0.8)',
+                borderColor: '#C86200',
                 borderWidth: 1,
-                borderRadius: 4
+                borderRadius: 6
             }]
         },
         options: {
@@ -191,7 +190,7 @@
         }
     });
 
-    // Top 5 Vendors Doughnut Chart
+    // Top 5 Vendors Doughnut Chart (Harmonized Orange Palette)
     const ctx2 = document.getElementById('topVendorsChart').getContext('2d');
 
     new Chart(ctx2, {
@@ -202,11 +201,11 @@
                 label: 'Commission (RM)',
                 data: @json($topVendorData),
                 backgroundColor: [
-                    '#192F50',
-                    '#34557E',
-                    '#56759C',
-                    '#8EA8C4',
-                    '#C4D2E1'
+                    '#C86200',
+                    '#DF7300',
+                    '#E67E22',
+                    '#F59E0B',
+                    '#FBBF24'
                 ],
                 borderWidth: 1
             }]

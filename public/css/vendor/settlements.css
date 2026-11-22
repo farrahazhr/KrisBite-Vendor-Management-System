@@ -1,11 +1,10 @@
-
 /* =========================================
    KRISBITE VENDOR - SETTLEMENTS
-   CHARCOAL BLACK & MIDNIGHT NAVY
+   Charcoal & Roasted Amber (#C86200)
 ========================================= */
 
 .vendor-settlements-page {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     color: #23272E;
     padding: 8px 0 30px;
 }
@@ -14,30 +13,30 @@
 
 .vendor-settlements-page .settlements-main-card {
     background: #FFFFFF;
-    border: 1px solid #D5DCE5;
+    border: 1px solid #E8E4DE;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.05);
+    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.04);
     overflow: hidden;
 }
 
 /* PAGE HEADER */
 
 .vendor-settlements-page .settlements-page-header {
-    padding: 25px 28px;
-    border-bottom: 1px solid #D5DCE5;
+    padding: 24px 28px;
+    border-bottom: 1px solid #E8E4DE;
 }
 
 .vendor-settlements-page .page-title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 26px;
-    font-weight: 600;
-    color: #23272E;
-    margin-bottom: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1C1A18;
+    margin-bottom: 6px;
 }
 
 .vendor-settlements-page .page-description {
     font-family: 'Inter', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     color: #667085;
     line-height: 1.6;
     margin: 0;
@@ -52,20 +51,20 @@
 /* SECTION HEADER */
 
 .vendor-settlements-page .settlements-section-header {
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
 
 .vendor-settlements-page .settlements-section-title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
     font-weight: 600;
-    color: #23272E;
-    margin-bottom: 7px;
+    color: #1C1A18;
+    margin-bottom: 6px;
 }
 
 .vendor-settlements-page .settlements-section-description {
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     color: #667085;
     margin: 0;
 }
@@ -73,8 +72,8 @@
 /* TABLE WRAPPER */
 
 .vendor-settlements-page .settlements-table-wrapper {
-    border: 1px solid #D5DCE5;
-    border-radius: 7px;
+    border: 1px solid #E8E4DE;
+    border-radius: 8px;
 }
 
 /* TABLE */
@@ -88,30 +87,31 @@
 }
 
 .vendor-settlements-page .settlements-table thead th {
-    background: #F2F5F9;
+    background: #FAF8F5;
     color: #344054;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
-    padding: 15px 16px;
-    border-bottom: 1px solid #D5DCE5;
+    padding: 14px 16px;
+    border-bottom: 1px solid #E8E4DE;
     white-space: nowrap;
 }
 
 .vendor-settlements-page .settlements-table tbody td {
-    padding: 15px 16px;
+    padding: 14px 16px;
     color: #344054;
-    border-color: #E8ECF1;
+    border-color: #F0EDE8;
     vertical-align: middle;
 }
 
 .vendor-settlements-page .settlements-table tbody tr:hover {
-    background: #F8FAFC;
+    background: #FDFCFB;
 }
 
 /* FINANCIAL VALUES */
 
 .vendor-settlements-page .settlements-amount {
     white-space: nowrap;
+    font-weight: 500;
 }
 
 .vendor-settlements-page .settlements-table tbody td.settlements-commission {
@@ -154,23 +154,24 @@
     font-family: 'Inter', sans-serif;
     font-size: 13px;
     font-weight: 500;
-    padding: 9px 13px;
+    padding: 8px 13px;
     border-radius: 6px;
     white-space: nowrap;
     text-decoration: none;
+    transition: all 0.15s ease;
 }
 
-/* VIEW RECEIPT - SOLID NAVY */
+/* VIEW RECEIPT - ROASTED AMBER */
 
 .vendor-settlements-page .settlements-view-btn {
-    background-color: #192F50;
+    background-color: #C86200;
     color: #FFFFFF;
-    border: 1px solid #192F50;
+    border: 1px solid #C86200;
 }
 
 .vendor-settlements-page .settlements-view-btn:hover {
-    background-color: #34557E;
-    border-color: #34557E;
+    background-color: #B35500;
+    border-color: #B35500;
     color: #FFFFFF;
 }
 
@@ -193,13 +194,13 @@
 .vendor-settlements-page .settlements-empty-state {
     padding: 40px 20px;
     text-align: center;
-    border: 1px solid #D5DCE5;
-    border-radius: 7px;
+    border: 1px solid #E8E4DE;
+    border-radius: 8px;
 }
 
 .vendor-settlements-page .settlements-empty-state h5 {
     font-family: 'Inter', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     color: #667085;
     margin: 0;
@@ -214,7 +215,7 @@
 }
 
 .vendor-settlement-modal .modal-content {
-    border: 1px solid #D5DCE5;
+    border: 1px solid #E8E4DE;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -222,16 +223,16 @@
 /* MODAL HEADER */
 
 .vendor-settlement-modal .modal-header {
-    background: #EDF1F6;
-    border-bottom: 1px solid #D5DCE5;
-    padding: 20px 24px;
+    background: #FAF8F5;
+    border-bottom: 1px solid #E8E4DE;
+    padding: 18px 24px;
 }
 
 .vendor-settlement-modal .modal-title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 19px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
     font-weight: 600;
-    color: #23272E;
+    color: #1C1A18;
 }
 
 /* MODAL BODY */
@@ -249,37 +250,37 @@
 /* RECEIPT TABLE */
 
 .vendor-settlement-modal .settlement-receipt-table-wrapper {
-    border: 1px solid #D5DCE5;
-    border-radius: 7px;
+    border: 1px solid #E8E4DE;
+    border-radius: 8px;
 }
 
 .vendor-settlement-modal .settlement-receipt-table {
     width: 100%;
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 13px;
     vertical-align: middle;
 }
 
 .vendor-settlement-modal .settlement-receipt-table thead th {
-    background: #F2F5F9;
+    background: #FAF8F5;
     color: #344054;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
-    padding: 13px;
+    padding: 12px;
     white-space: nowrap;
 }
 
 .vendor-settlement-modal .settlement-receipt-table tbody td {
-    padding: 13px;
+    padding: 12px;
     color: #344054;
-    border-color: #E8ECF1;
+    border-color: #F0EDE8;
 }
 
 /* FINANCIAL SUMMARY */
 
 .vendor-settlement-modal .settlement-summary-divider {
     border: 0;
-    border-top: 1px solid #D5DCE5;
+    border-top: 1px solid #E8E4DE;
     opacity: 1;
     margin: 24px 0;
 }
@@ -296,13 +297,13 @@
 .vendor-settlement-modal .settlement-financial-summary .text-success {
     color: #267345 !important;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 /* MODAL FOOTER */
 
 .vendor-settlement-modal .modal-footer {
-    border-top: 1px solid #D5DCE5;
+    border-top: 1px solid #E8E4DE;
     padding: 16px 24px;
     gap: 8px;
 }
@@ -315,8 +316,9 @@
     font-family: 'Inter', sans-serif;
     font-size: 13px;
     font-weight: 500;
-    padding: 10px 16px;
+    padding: 9px 16px;
     border-radius: 6px;
+    transition: all 0.15s ease;
 }
 
 /* DOWNLOAD PDF - SOLID RED */
@@ -358,7 +360,7 @@
     }
 
     .vendor-settlements-page .page-title {
-        font-size: 23px;
+        font-size: 22px;
     }
 
     .vendor-settlements-page .settlements-page-content {
