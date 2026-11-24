@@ -25,6 +25,6 @@ class WorkerController extends Controller
         $worker->status = 'approved';
         $worker->save();
 
-        return redirect()->back()->with('success', 'Akaun Worker berjaya diluluskan! Pekerja kini boleh log masuk.');
+        return redirect()->back()->with('success', 'Worker account approved successfully. User now can login to the system and access worker functions.');
     }
 }

@@ -1,12 +1,11 @@
-
 /* =========================================
    KRISBITE PUBLIC - MENU PAGE
-   CHARCOAL BLACK & MIDNIGHT NAVY
+   Charcoal & Roasted Amber (#C86200)
 ========================================= */
 
 .public-menu-page {
-    font-family: 'Inter', sans-serif;
-    background-color: #F1F3F6;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #FAF8F5;
     min-height: 100vh;
 }
 
@@ -23,8 +22,8 @@
     padding: 65px 20px;
     background-image:
         linear-gradient(
-            rgba(0, 0, 0, 0.58),
-            rgba(0, 0, 0, 0.58)
+            rgba(28, 26, 24, 0.62),
+            rgba(28, 26, 24, 0.62)
         ),
         url('../../images/banner_for_public_ui.png');
     background-size: cover;
@@ -41,48 +40,51 @@
 /* HERO TITLE */
 
 .public-menu-page .public-hero-title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: clamp(30px, 4vw, 48px);
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(28px, 4vw, 46px);
     font-weight: 700;
     color: #FFFFFF;
     line-height: 1.25;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
+    letter-spacing: -0.5px;
 }
 
 /* HERO DESCRIPTION */
 
 .public-menu-page .public-hero-description {
     font-family: 'Inter', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400;
     color: #F2F4F7;
     line-height: 1.6;
     margin-bottom: 28px;
 }
 
-/* APPLY AS VENDOR - SOLID NAVY */
+/* APPLY AS VENDOR - ROASTED AMBER */
 
 .public-menu-page .public-apply-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: #192F50;
+    background-color: #C86200;
     color: #FFFFFF;
-    border: 1px solid #192F50;
+    border: 1px solid #C86200;
     border-radius: 6px;
-    padding: 13px 25px;
+    padding: 13px 26px;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 3px 12px rgba(200, 98, 0, 0.35);
+    transition: all 0.15s ease;
 }
 
 .public-menu-page .public-apply-btn:hover,
 .public-menu-page .public-apply-btn:focus {
-    background-color: #34557E;
-    border-color: #34557E;
+    background-color: #B35500;
+    border-color: #B35500;
     color: #FFFFFF;
+    transform: translateY(-1px);
 }
 
 /* =========================================
@@ -128,6 +130,7 @@
     font-size: 14px;
     color: #23272E;
     box-shadow: 0 2px 6px rgba(35, 39, 46, 0.04);
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 .public-menu-page .public-search-input::placeholder {
@@ -136,11 +139,11 @@
 }
 
 .public-menu-page .public-search-input:focus {
-    border-color: #34557E;
-    box-shadow: 0 0 0 3px rgba(52, 85, 126, 0.12);
+    border-color: #C86200;
+    box-shadow: 0 0 0 3px rgba(200, 98, 0, 0.15);
 }
 
-/* SEARCH BUTTON - SOLID NAVY */
+/* SEARCH BUTTON - ROASTED AMBER */
 
 .public-menu-page .public-search-btn {
     display: inline-flex;
@@ -150,20 +153,21 @@
     min-width: 115px;
     min-height: 50px;
     padding: 11px 20px;
-    background-color: #192F50;
+    background-color: #C86200;
     color: #FFFFFF;
-    border: 1px solid #192F50;
+    border: 1px solid #C86200;
     border-radius: 7px;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 500;
     white-space: nowrap;
+    transition: all 0.15s ease;
 }
 
 .public-menu-page .public-search-btn:hover,
 .public-menu-page .public-search-btn:focus {
-    background-color: #34557E;
-    border-color: #34557E;
+    background-color: #B35500;
+    border-color: #B35500;
     color: #FFFFFF;
 }
 
@@ -180,10 +184,10 @@
 }
 
 .public-menu-page .public-menu-title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
-    font-weight: 600;
-    color: #23272E;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1C1A18;
     margin: 0;
 }
 
@@ -193,15 +197,15 @@
 
 .public-menu-page .public-food-card {
     background-color: #FFFFFF;
-    border: 1px solid #D5DCE5;
+    border: 1px solid #E8E4DE;
     border-radius: 9px;
-    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.05);
+    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.04);
     overflow: hidden;
-    transition: box-shadow 0.2s ease;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .public-menu-page .public-food-card:hover {
-    box-shadow: 0 6px 18px rgba(35, 39, 46, 0.11);
+    box-shadow: 0 6px 18px rgba(35, 39, 46, 0.08);
 }
 
 /* FOOD IMAGE */
@@ -211,7 +215,7 @@
     width: 100%;
     height: 180px;
     object-fit: cover;
-    border-bottom: 1px solid #E8ECF1;
+    border-bottom: 1px solid #F0EDE8;
 }
 
 /* FOOD BODY */
@@ -225,12 +229,12 @@
 /* FOOD NAME */
 
 .public-menu-page .public-food-name {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
     font-weight: 600;
-    color: #23272E;
+    color: #1C1A18;
     line-height: 1.5;
-    margin-bottom: 9px;
+    margin-bottom: 8px;
 }
 
 /* VENDOR */
@@ -240,7 +244,7 @@
     font-size: 13px;
     color: #667085;
     line-height: 1.5;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
 }
 
 .public-menu-page .public-food-vendor b {
@@ -259,13 +263,13 @@
     margin-top: auto;
 }
 
-/* PRICE */
+/* PRICE - ROASTED AMBER */
 
 .public-menu-page .public-food-price {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    color: #B43C3C;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #C86200;
     white-space: nowrap;
 }
 
@@ -275,7 +279,7 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 9px 12px;
+    padding: 8px 12px;
     border-radius: 6px;
     font-family: 'Inter', sans-serif;
     font-size: 12px;
@@ -298,7 +302,7 @@
 
 .public-menu-page .public-empty-state {
     background-color: #FFFFFF;
-    border: 1px solid #D5DCE5;
+    border: 1px solid #E8E4DE;
     border-radius: 9px;
     padding: 45px 20px;
     text-align: center;
@@ -306,7 +310,7 @@
 
 .public-menu-page .public-empty-state h5 {
     font-family: 'Inter', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     color: #667085;
     line-height: 1.6;
@@ -325,7 +329,7 @@
     }
 
     .public-menu-page .public-hero-title {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .public-menu-page .public-hero-description {

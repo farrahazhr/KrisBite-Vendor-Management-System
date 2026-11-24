@@ -1,11 +1,10 @@
-
 /* =========================================
    KRISBITE WORKER - MANAGE MENU
-   CHARCOAL BLACK & MIDNIGHT NAVY
+   Charcoal & Roasted Amber (#C86200)
 ========================================= */
 
 .worker-manage-menu {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     color: #23272E;
     padding: 8px 0 30px;
 }
@@ -16,9 +15,9 @@
 
 .worker-manage-menu .menu-main-card {
     background-color: #FFFFFF;
-    border: 1px solid #D5DCE5;
+    border: 1px solid #E8E4DE;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.05);
+    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.04);
     overflow: hidden;
 }
 
@@ -27,21 +26,21 @@
 ========================================= */
 
 .worker-manage-menu .menu-page-header {
-    padding: 25px 28px;
-    border-bottom: 1px solid #D5DCE5;
+    padding: 24px 28px;
+    border-bottom: 1px solid #E8E4DE;
 }
 
 .worker-manage-menu .menu-page-title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 26px;
-    font-weight: 600;
-    color: #23272E;
-    margin-bottom: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1C1A18;
+    margin-bottom: 6px;
 }
 
 .worker-manage-menu .menu-page-description {
     font-family: 'Inter', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     color: #667085;
     line-height: 1.6;
     margin: 0;
@@ -60,20 +59,20 @@
 ========================================= */
 
 .worker-manage-menu .menu-section-header {
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 
 .worker-manage-menu .menu-section-title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
     font-weight: 600;
-    color: #23272E;
-    margin-bottom: 7px;
+    color: #1C1A18;
+    margin-bottom: 6px;
 }
 
 .worker-manage-menu .menu-section-description {
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     color: #667085;
     margin: 0;
 }
@@ -113,7 +112,7 @@
 .worker-manage-menu .menu-search-input {
     width: 100%;
     min-height: 46px;
-    border: 1px solid #C9D2DE;
+    border: 1px solid #D5DCE5;
     border-radius: 6px;
     background-color: #FFFFFF;
     padding: 11px 15px 11px 45px;
@@ -121,6 +120,7 @@
     font-size: 14px;
     color: #23272E;
     box-shadow: none;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 .worker-manage-menu .menu-search-input::placeholder {
@@ -129,11 +129,11 @@
 }
 
 .worker-manage-menu .menu-search-input:focus {
-    border-color: #34557E;
-    box-shadow: 0 0 0 3px rgba(52, 85, 126, 0.12);
+    border-color: #C86200;
+    box-shadow: 0 0 0 3px rgba(200, 98, 0, 0.15);
 }
 
-/* SEARCH BUTTON - SOLID NAVY */
+/* SEARCH BUTTON - ROASTED AMBER */
 
 .worker-manage-menu .menu-search-btn {
     display: inline-flex;
@@ -142,20 +142,21 @@
     gap: 8px;
     min-width: 115px;
     min-height: 46px;
-    background-color: #192F50;
+    background-color: #C86200;
     color: #FFFFFF;
-    border: 1px solid #192F50;
+    border: 1px solid #C86200;
     border-radius: 6px;
     padding: 10px 18px;
     font-family: 'Inter', sans-serif;
     font-size: 13px;
     font-weight: 500;
     white-space: nowrap;
+    transition: all 0.15s ease;
 }
 
 .worker-manage-menu .menu-search-btn:hover {
-    background-color: #34557E;
-    border-color: #34557E;
+    background-color: #B35500;
+    border-color: #B35500;
     color: #FFFFFF;
 }
 
@@ -173,15 +174,15 @@
 
 .worker-manage-menu .menu-food-card {
     background-color: #FFFFFF;
-    border: 1px solid #D5DCE5;
+    border: 1px solid #E8E4DE;
     border-radius: 9px;
-    box-shadow: 0 2px 7px rgba(35, 39, 46, 0.05);
+    box-shadow: 0 2px 7px rgba(35, 39, 46, 0.04);
     overflow: hidden;
-    transition: box-shadow 0.2s ease;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .worker-manage-menu .menu-food-card:hover {
-    box-shadow: 0 5px 16px rgba(35, 39, 46, 0.10);
+    box-shadow: 0 6px 18px rgba(35, 39, 46, 0.08);
 }
 
 /* FOOD IMAGE */
@@ -191,7 +192,7 @@
     width: 100%;
     height: 180px;
     object-fit: cover;
-    border-bottom: 1px solid #E8ECF1;
+    border-bottom: 1px solid #F0EDE8;
 }
 
 /* FOOD CARD BODY */
@@ -205,12 +206,12 @@
 /* FOOD NAME */
 
 .worker-manage-menu .menu-food-name {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
     font-weight: 600;
-    color: #23272E;
+    color: #1C1A18;
     line-height: 1.5;
-    margin-bottom: 9px;
+    margin-bottom: 8px;
 }
 
 /* VENDOR NAME */
@@ -220,7 +221,7 @@
     font-size: 13px;
     color: #667085;
     line-height: 1.5;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
 }
 
 .worker-manage-menu .menu-food-vendor b {
@@ -244,10 +245,10 @@
 /* PRICE */
 
 .worker-manage-menu .menu-food-price {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    color: #B43C3C;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #C86200;
     white-space: nowrap;
 }
 
@@ -263,12 +264,13 @@
     color: #FFFFFF;
     border: 1px solid #267345;
     border-radius: 6px;
-    padding: 9px 13px;
+    padding: 8px 13px;
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 500;
     text-decoration: none;
     white-space: nowrap;
+    transition: all 0.15s ease;
 }
 
 .worker-manage-menu .menu-available-btn:hover {
@@ -288,7 +290,7 @@
     background-color: #B43C3C;
     color: #FFFFFF;
     border-radius: 6px;
-    padding: 10px 13px;
+    padding: 8px 12px;
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 500;
@@ -301,15 +303,15 @@
 
 .worker-manage-menu .menu-empty-state {
     padding: 45px 20px;
-    border: 1px solid #D5DCE5;
-    border-radius: 7px;
+    border: 1px solid #E8E4DE;
+    border-radius: 8px;
     text-align: center;
     background-color: #FFFFFF;
 }
 
 .worker-manage-menu .menu-empty-state h5 {
     font-family: 'Inter', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     color: #667085;
     margin: 0;
@@ -326,7 +328,7 @@
     }
 
     .worker-manage-menu .menu-page-title {
-        font-size: 23px;
+        font-size: 22px;
     }
 
     .worker-manage-menu .menu-page-content {

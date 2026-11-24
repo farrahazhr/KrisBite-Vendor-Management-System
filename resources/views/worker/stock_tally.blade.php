@@ -1,4 +1,3 @@
-
 @extends('layouts.worker')
 
 @push('styles')
@@ -288,7 +287,7 @@
      tabindex="-1"
      aria-hidden="true">
 
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
 
         <div class="modal-content">
 

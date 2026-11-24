@@ -1,4 +1,3 @@
-
 @extends('layouts.public')
 
 @push('styles')
@@ -22,7 +21,7 @@
             </h1>
 
             <p class="public-hero-description">
-                Tempah makanan kegemaran anda atau jadi vendor KrisBite hari ini!
+                See what food available today or apply to become a Krisbite Vendor. Join our community of food vendors and reach more customers with ease.
             </p>
 
             <a href="{{ route('public.apply.vendor') }}"
@@ -52,7 +51,7 @@
 
                         <input type="text"
                                class="form-control public-search-input"
-                               placeholder="Cari makanan kegemaran anda..."
+                               placeholder="Search food names..."
                                id="searchInput"
                                onkeyup="filterMenu()">
 

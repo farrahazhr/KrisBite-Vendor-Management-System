@@ -1,4 +1,3 @@
-
 @extends('layouts.worker')
 
 @push('styles')
@@ -185,7 +184,7 @@
                     <i class="bi bi-clock-history"></i>
 
                     <p>
-                        Belum ada aktiviti terkini. Sila lakukan Stock Tally terlebih dahulu.
+                        There is no recent activity to display.
                     </p>
 
                 </div>

@@ -1,7 +1,6 @@
-
 /* =========================================
    KRISBITE - WORKER LAYOUT
-   CHARCOAL BLACK & MIDNIGHT NAVY
+   Charcoal Black & Roasted Amber (#C86200)
 ========================================= */
 
 * {
@@ -10,9 +9,9 @@
 
 body.worker-layout {
     margin: 0;
-    background-color: #F1F3F6;
+    background-color: #FAF8F5;
     color: #23272E;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-size: 15px;
 }
 
@@ -33,7 +32,7 @@ body.worker-layout {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #23272E;
+    background-color: #1C1A18;
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -49,8 +48,8 @@ body.worker-layout {
 }
 
 .worker-sidebar-brand h4 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 23px;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
     font-weight: 700;
     color: #FFFFFF;
     letter-spacing: 1.5px;
@@ -61,7 +60,7 @@ body.worker-layout {
     font-family: 'Inter', sans-serif;
     font-size: 10px;
     font-weight: 500;
-    color: #AEB7C4;
+    color: #A3A19D;
     letter-spacing: 2px;
 }
 
@@ -69,7 +68,7 @@ body.worker-layout {
 
 .worker-sidebar-divider {
     height: 1px;
-    background-color: #3C424C;
+    background-color: rgba(255, 255, 255, 0.12);
     margin: 0 20px 18px;
 }
 
@@ -89,13 +88,13 @@ body.worker-layout {
     align-items: center;
     gap: 13px;
     padding: 13px 16px;
-    border-radius: 7px;
-    color: #C9D0DA;
+    border-radius: 8px;
+    color: #D2D9E3;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 500;
     text-decoration: none;
-    transition: background-color 0.2s ease, color 0.2s ease;
+    transition: background-color 0.15s ease, color 0.15s ease;
 }
 
 .worker-sidebar-navigation .nav-link i {
@@ -108,16 +107,17 @@ body.worker-layout {
 /* HOVER */
 
 .worker-sidebar-navigation .nav-link:hover {
-    background-color: #303A49;
+    background-color: rgba(255, 255, 255, 0.08);
     color: #FFFFFF;
 }
 
-/* ACTIVE NAVIGATION */
+/* ACTIVE NAVIGATION - ROASTED AMBER */
 
 .worker-sidebar-navigation .nav-link.active {
-    background-color: #192F50;
+    background-color: #C86200;
     color: #FFFFFF;
     font-weight: 600;
+    box-shadow: 0 2px 8px rgba(200, 98, 0, 0.3);
 }
 
 .worker-sidebar-navigation .nav-link.active i {
@@ -129,7 +129,7 @@ body.worker-layout {
 .worker-sidebar-navigation .worker-logout-item {
     margin-top: 30px;
     padding-top: 15px;
-    border-top: 1px solid #3C424C;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .worker-sidebar-navigation .worker-logout-item form {
@@ -145,10 +145,11 @@ body.worker-layout {
     color: #F0A5A5;
     text-align: left;
     cursor: pointer;
+    border-radius: 8px;
 }
 
 .worker-sidebar-navigation .worker-logout-btn:hover {
-    background-color: #493036;
+    background-color: rgba(220, 53, 69, 0.15);
     color: #FFFFFF;
 }
 
@@ -171,8 +172,7 @@ body.worker-layout {
     width: 100%;
     min-height: 76px;
     background-color: #FFFFFF;
-    border-bottom: 1px solid #D5DCE5;
-    box-shadow: 0 1px 4px rgba(35, 39, 46, 0.04);
+    border-bottom: 1px solid #E8E4DE;
     padding: 18px 30px;
     display: flex;
     align-items: center;
@@ -181,10 +181,10 @@ body.worker-layout {
 }
 
 .worker-topbar-title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 19px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
     font-weight: 600;
-    color: #23272E;
+    color: #1C1A18;
 }
 
 .worker-topbar-user {
@@ -197,7 +197,7 @@ body.worker-layout {
 }
 
 .worker-topbar-user strong {
-    color: #23272E;
+    color: #C86200;
     font-weight: 600;
 }
 
@@ -206,7 +206,7 @@ body.worker-layout {
 ========================================= */
 
 .worker-main-content {
-    padding: 30px;
+    padding: 28px 30px;
     min-height: calc(100vh - 76px);
 }
 

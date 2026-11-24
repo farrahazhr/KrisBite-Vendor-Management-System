@@ -1,4 +1,3 @@
-
 @extends('layouts.worker')
 
 @push('styles')

@@ -1,11 +1,10 @@
-
 /* =========================================
    KRISBITE - WORKER DASHBOARD
-   CHARCOAL BLACK & MIDNIGHT NAVY
+   Charcoal & Roasted Amber (#C86200)
 ========================================= */
 
 .worker-dashboard {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     padding-top: 8px;
     padding-bottom: 30px;
 }
@@ -19,16 +18,16 @@
 }
 
 .worker-dashboard .worker-page-title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 26px;
-    font-weight: 600;
-    color: #23272E;
-    margin-bottom: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1C1A18;
+    margin-bottom: 6px;
 }
 
 .worker-dashboard .worker-page-description {
     font-family: 'Inter', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     color: #667085;
     line-height: 1.6;
     margin-bottom: 0;
@@ -44,7 +43,7 @@
 
 .worker-dashboard .worker-stat-card {
     border: none;
-    border-radius: 9px;
+    border-radius: 10px;
     padding: 22px;
     min-height: 130px;
     height: 100%;
@@ -53,19 +52,19 @@
     align-items: center;
 }
 
-/* TODAY INVOICE - MIDNIGHT NAVY */
+/* TODAY INVOICE - ROASTED AMBER */
 
 .worker-dashboard .stat-invoices {
-    background-color: #192F50;
+    background-color: #C86200;
 }
 
-/* PENDING TALLY - AMBER */
+/* PENDING TALLY - WARM OCHRE / AMBER */
 
 .worker-dashboard .stat-tally {
     background-color: #C18A30;
 }
 
-/* TODAY SETTLEMENT - GREEN */
+/* TODAY SETTLEMENT - PARSLEY GREEN */
 
 .worker-dashboard .stat-settlements {
     background-color: #267345;
@@ -85,18 +84,18 @@
 
 .worker-dashboard .worker-stat-label {
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.88);
-    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 14px;
 }
 
 .worker-dashboard .worker-stat-value {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 28px;
-    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
     color: #FFFFFF;
-    line-height: 1.25;
+    line-height: 1.2;
     margin: 0;
     overflow-wrap: anywhere;
 }
@@ -107,25 +106,25 @@
 
 .worker-dashboard .worker-activity-card {
     background: #FFFFFF;
-    border: 1px solid #D5DCE5;
+    border: 1px solid #E8E4DE;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.05);
+    box-shadow: 0 2px 8px rgba(35, 39, 46, 0.04);
     overflow: hidden;
 }
 
 /* CARD HEADER */
 
 .worker-dashboard .worker-activity-header {
-    padding: 22px 26px;
-    border-bottom: 1px solid #D5DCE5;
-    background: #FFFFFF;
+    padding: 20px 26px;
+    border-bottom: 1px solid #E8E4DE;
+    background: #FAF8F5;
 }
 
 .worker-dashboard .worker-section-title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
     font-weight: 600;
-    color: #23272E;
+    color: #1C1A18;
     margin: 0;
 }
 
@@ -148,7 +147,7 @@
     gap: 18px;
     flex-wrap: wrap;
     padding: 18px 0;
-    border-bottom: 1px solid #E8ECF1;
+    border-bottom: 1px solid #F0EDE8;
     background: transparent;
 }
 
@@ -167,7 +166,7 @@
 
 .worker-dashboard .worker-activity-vendor {
     font-weight: 600;
-    color: #192F50;
+    color: #C86200;
 }
 
 /* ACTIVITY STATUS */
@@ -181,7 +180,7 @@
 }
 
 .worker-dashboard .activity-settled {
-    color: #34557E;
+    color: #C86200;
 }
 
 .worker-dashboard .activity-verified {
@@ -192,8 +191,8 @@
 
 .worker-dashboard .worker-activity-time {
     display: inline-block;
-    background-color: #F2F5F9;
-    border: 1px solid #E4E9F0;
+    background-color: #FAF8F5;
+    border: 1px solid #E8E4DE;
     border-radius: 6px;
     padding: 6px 10px;
     color: #667085;
@@ -234,7 +233,7 @@
 @media (max-width: 767.98px) {
 
     .worker-dashboard .worker-page-title {
-        font-size: 23px;
+        font-size: 22px;
     }
 
     .worker-dashboard .worker-dashboard-header {
@@ -243,15 +242,15 @@
 
     .worker-dashboard .worker-stat-card {
         min-height: 115px;
-        padding: 19px;
+        padding: 18px;
     }
 
     .worker-dashboard .worker-stat-value {
-        font-size: 25px;
+        font-size: 24px;
     }
 
     .worker-dashboard .worker-activity-header {
-        padding: 19px 20px;
+        padding: 16px 20px;
     }
 
     .worker-dashboard .worker-activity-body {
