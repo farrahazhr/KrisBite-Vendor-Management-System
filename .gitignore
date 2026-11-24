@@ -24,3 +24,4 @@ Homestead.yaml
 Thumbs.db
 phpmyadmin-filesystem.tar
 /public/images/typhoid_certs/
+.agents/unslop-main/
